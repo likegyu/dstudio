@@ -31,9 +31,10 @@ div {
     background-position: center center;
   }
   .main{
-    position: relative;
+    position: fixed;
     color: white;
-    font-size: 13vh;
-    top: 15%;
+    width: 100%;
+    font-size: 10vh;
+    margin-top: 25vh;
     text-align: center;
   }
