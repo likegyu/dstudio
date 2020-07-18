@@ -9,28 +9,28 @@ div {
     width: 98%;
     height: 100%;
   }
-.paint1 {
+#paint1 {
     position: absolute;
     background-image: url('/assets/images/main/1.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
   }
-  .paint2 {
+#paint2 {
     position: absolute;
     background-image: url('/assets/images/main/2.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
   }
-  .paint3 {
+#paint3 {
     position: absolute;
     background-image: url('/assets/images/main/3.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
   }
-  .main{
+#main{
     position: fixed;
     color: white;
     width: 100%;
