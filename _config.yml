@@ -1,21 +1,11 @@
-url: https://likegyu.com
+# User config
+author: "D studio"
+description: "D studio"
+email: "admin.dstudio.kr"
 
-# variables
-description: D studio
-
-
-# File management
-include: [".htaccess"]
-exclude: ["README.md"]
-
-# Sass
+# Site config
+baseurl:
+highlighter: rouge
 sass:
-  style: :compressed
-  sass_dir: _sass
-
-# Markdown
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    disable : true
+  sass_dir: assets/scss
+  style: compressed
