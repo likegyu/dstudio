@@ -15,18 +15,18 @@ div {
   background-color: #ffb000;
   border-bottom: white;
   .img{
-    max-width: 50%;
+    max-width: 600px;
   }
 }
 #dstudio{
   float: left;
   background-color: #0d1011;
   .img{
-    max-width: 50%;
+    max-width: 600px;
   }
 }
 @media ( max-width: 767px ) {
   .img{
-    max-width: 20%;
+    max-width: 300px;
   }
 }
