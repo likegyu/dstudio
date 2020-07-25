@@ -13,10 +13,12 @@ div {
   float: left;
   background-color: #ffb000;
   border-bottom: dashed white;
+  max-width: 50%;
 }
 #dstudio{
   float: left;
   background-color: #0d1011;
+  max-width: 50%;
 }
 @media ( max-width: 767px ) {
   #main{
