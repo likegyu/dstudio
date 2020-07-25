@@ -8,6 +8,7 @@ body {
 div {
   width: 100%;
   height: 50%;
+  position: relative;
 }
 #indmag{
   float: left;
@@ -33,9 +34,9 @@ div {
 }
 @media ( max-width: 768px ) {
   #indmag img{
-      max-width: 300px;
+    max-height: 50%;
     }
   #dstudio img{
-      max-width: 300px;
+    max-height: 50%;
     }
   }
