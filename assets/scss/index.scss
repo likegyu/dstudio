@@ -8,26 +8,34 @@ body {
 div {
   width: 100%;
   height: 50%;
-  text-align: center;
-  vertical-align: middle;
 }
 #indmag{
   float: left;
   background-color: #ffb000;
-  border-bottom: white;
+  overflow: hidden;
   img{
-    max-width: 600px;
+    position: absolute;
+    max-width: 500px;
+    margin: auto;
+    top: 0; bottom: 0; left: 0; right: 0;
   }
 }
 #dstudio{
   float: left;
   background-color: #0d1011;
+  overflow: hidden;
   img{
-    max-width: 600px;
+    position: absolute;
+    max-width: 500px;
+    margin: auto;
+    top: 0; bottom: 0; left: 0; right: 0;
   }
 }
-@media ( max-width: 767px ) {
-  img{
-    max-width: 300px;
+@media ( max-width: 768px ) {
+  #indmag img{
+      max-width: 300px;
+    }
+  #dstudio img{
+      max-width: 300px;
+    }
   }
-}
