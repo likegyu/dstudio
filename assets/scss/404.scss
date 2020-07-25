@@ -16,16 +16,21 @@ img{
     position: absolute;
     max-width: 500px;
     margin: auto;
-    top: 0; bottom: 0; left: 0; right: 0;
+    bottom: 0; left: 0; right: 0;
   }
 p{
     position: absolute;
     margin: auto;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Menlo', 'Courier New', Courier, Monospace;
+    font-size: x-large;
 }
 @media ( max-width: 768px ) {
     img{
       max-height: 50%;
+    }
+    p{
+        font-size: medium;
     }
 }
