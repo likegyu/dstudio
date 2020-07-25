@@ -13,21 +13,18 @@ div {
   float: left;
   background-color: #ffb000;
   border-bottom: white;
-  max-width: 50%;
+  .img{
+    max-width: 50%;
+  }
 }
 #dstudio{
   float: left;
   background-color: #0d1011;
-  max-width: 50%;
+  .img{
+    max-width: 50%;
+  }
 }
 @media ( max-width: 767px ) {
-  #main{
-    position: fixed;
-    color: white;
-    width: 100%;
-    font-size: 7vh;
-    font-family: serif;
-    margin-top: 27vh;
-    text-align: center;
+  .img{
   }
 }
