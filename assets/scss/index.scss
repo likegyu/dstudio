@@ -6,17 +6,17 @@ body {
   background-color: black;
 }
 div {
-  width: 98%;
-  height: 100%;
-}
-#main{
-  position: fixed;
-  color: white;
   width: 100%;
-  font-size: 10vh;
-  font-family: serif;
-  margin-top: 22vh;
-  text-align: center;
+  height: 50%;
+}
+#indmag{
+  float: left;
+  background-color: #ffb000;
+  border-bottom: dashed white;
+}
+#dstudio{
+  float: left;
+  background-color: #0d1011;
 }
 @media ( max-width: 767px ) {
   #main{
