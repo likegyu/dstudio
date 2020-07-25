@@ -15,19 +15,19 @@ div {
   float: left;
   background-color: #ffb000;
   border-bottom: white;
-  .img{
+  img{
     max-width: 600px;
   }
 }
 #dstudio{
   float: left;
   background-color: #0d1011;
-  .img{
+  img{
     max-width: 600px;
   }
 }
 @media ( max-width: 767px ) {
-  .img{
+  img{
     max-width: 300px;
   }
 }
