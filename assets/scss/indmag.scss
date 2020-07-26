@@ -1,42 +1,41 @@
 body {
-    margin: 0; /* 브라우저 여백없에기*/
+    margin:0
 }
-
-/* The navigation bar */
+.center {
+    max-width: 100%;
+    margin:0 auto;
+}
 .navbar {
+    float: left;
     text-align: center;
     overflow: hidden;
     background-color: #ffb000;
     position: -webkit-sticky;
-    position: sticky; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; 
-    height: 55px;
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height:55px
+}
+.navbar img {
     float: left;
-  }
-  .navbar img{
-      max-height: 50px;
-  }
-  .menu {
-    display: block;
+    max-height:55px
+}
+
+.menu {
+    float: left;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-      margin: 4px
-  }
-  
-  /* Change background on mouse-over */
-  .menu:hover {
+    margin: 4px;
+}
+
+.menu:hover {
     background: #ddd;
-    color: black;
-  }
-  
-  /* Main content */
-  .content {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-  }
+    color:black
+}
+
+.content {
+    display: inline-block ;
+    margin-top: 30px
+}
+
