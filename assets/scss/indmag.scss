@@ -10,11 +10,12 @@ body {
     position: fixed;
     padding-top: 8px;
     max-height: 50px;
-    overflow:hidden
+    overflow:hidden;
+    border-bottom: 6px double  black ;
 }
 
 .navbar {
-    display:inline-block
+    display:inline-block;
 }
 
 .navbar a {
@@ -36,11 +37,10 @@ body {
 }
 
 .menu {
-    color: #ececec;
+    color: #ffe3b4ff;
     padding: 8px 16px;
     text-decoration: none;
     font-family: 'Menlo', 'Courier New', Courier, Monospace;
-    font-size:medium
 }
 
 .menu:hover {
@@ -53,6 +53,7 @@ body {
     display: inline-block;
     margin-top: 90px
 }
+
 
 
 
