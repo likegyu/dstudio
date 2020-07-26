@@ -1,12 +1,15 @@
 body {
-    margin:0;
+    margin:0
 }
-.center{
+
+.center {
     width: 100%;
     text-align: center;
     background-color: #ffb000;
-    padding-top: 10px;
+    position: sticky;
+    padding-top: 8px;
 }
+
 .navbar {
     display: inline-block;
     width: 360px;
@@ -18,8 +21,8 @@ body {
 }
 
 .navbar img {
-    max-height:50px;
-    padding-right:15px;
+    max-height: 50px;
+    padding-right:15px
 }
 
 .menu {
@@ -27,11 +30,13 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     margin:4px
+    font-family: 'Menlo', 'Courier New', Courier, Monospace;
+    font-size: x-large;
 }
 
 .menu:hover {
     background: #ddd;
-    color:black
+    color:#000
 }
 
 .content {
