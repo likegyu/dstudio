@@ -11,7 +11,7 @@ body {
     position: sticky; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; 
-    height: 56px;
+    height: 55px;
   }
   
   /* Links inside the navbar */
@@ -19,18 +19,19 @@ body {
     float: left;
   }
   .navbar img{
-      max-height: 100%;
+      max-height: 50px;
   }
-  menu {
+  .menu {
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+      margin: 4px
   }
   
   /* Change background on mouse-over */
-  menu:hover {
+  .menu:hover {
     background: #ddd;
     color: black;
   }
