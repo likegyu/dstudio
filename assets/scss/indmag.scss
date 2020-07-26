@@ -23,7 +23,7 @@ body {
 
 .logo {
     width: 120px;
-    height: 55px;
+    height: 40px;
     float: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -31,12 +31,12 @@ body {
 }
 
 .logo:hover {
-    background-image: url("/assets/images/logo-2.svg");
+    background-image: url("assets/images/logo-2.svg");
 }
 
 .menu {
     color: #f2f2f2;
-    padding: 14px 16px;
+    padding: 8px 16px;
     text-decoration: none;
     font-family: 'Menlo', 'Courier New', Courier, Monospace;
     font-size:medium
