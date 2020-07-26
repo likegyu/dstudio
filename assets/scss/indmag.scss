@@ -20,11 +20,15 @@ body {
 .navbar a {
     float:left}
 
-.navbar img {
-    max-height: 50px;
-    padding-right:30px
+.logo {
+    width: 120px;
+    height: 55px;
+    background-position: left center;
+    background-image: url('/assets/images/logo.svg');
 }
-
+.logo:hover {
+    background-image: url('assets/images/logo-2.svg');
+}
 .menu {
     color: #f2f2f2;
     padding: 14px 16px;
