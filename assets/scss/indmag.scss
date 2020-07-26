@@ -9,7 +9,7 @@ body {
     background-color: #ffb000;
     position: fixed;
     padding-top: 8px;
-    max-height: 60px;
+    max-height: 50px;
     overflow:hidden
 }
 
@@ -22,7 +22,8 @@ body {
 }
 
 .logo {
-    width: 120px;
+    margin-right: 40px;
+    width: 65px;
     height: 40px;
     float: left;
     background-size: contain;
@@ -31,7 +32,7 @@ body {
 }
 
 .logo:hover {
-    background-image: url("assets/images/logo-2.svg");
+    background-image: url("/assets/images/logo-2.svg");
 }
 
 .menu {
@@ -51,4 +52,5 @@ body {
     display: inline-block;
     margin-top: 90px
 }
+
 
