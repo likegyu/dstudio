@@ -6,7 +6,7 @@ body {
     float: left;
     width: 100%;
     text-align: center;
-    background-color: #ffb000;
+    background-color: #ffbd2d;
     position: fixed;
     padding-top: 8px;
     max-height: 50px;
@@ -45,7 +45,8 @@ body {
 
 .menu:hover {
     transition-duration: 0.3s;
-    color: black;
+    color: #161a1b;
+    background-color: #fccc65;
 }
 
 .content {
