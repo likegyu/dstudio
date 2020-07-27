@@ -2,9 +2,10 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
+  var element = document.getElementById("center");
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {    
-    document.center.style.backgroundColor = "##f9bb0050";
+    element.center.style.backgroundColor = "##f9bb0050";
   } else {
-    document.center.style.backgroundColor = "#f9bc00";
+    element.center.style.backgroundColor = "#f9bc00";
   }
 }
