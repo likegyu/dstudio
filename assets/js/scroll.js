@@ -4,8 +4,8 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   var element = document.querySelector("center");
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {    
-    element.center.style.backgroundColor = "##f9bb0050";
+    element.style.backgroundColor = "##f9bb0050";
   } else {
-    element.center.style.backgroundColor = "#f9bc00";
+    element.style.backgroundColor = "#f9bc00";
   }
 }
