@@ -47,23 +47,30 @@ body {
     transition-duration: 0.3s;
     color: #ffffff80;
 }
+
 /* The progress container (grey background) */
 .progress-container {
     width: 100%;
     height: 3px;
     background: rgba(204, 204, 204, 0.788);
   }
-  
+
   /* The progress bar (scroll indicator) */
   .progress-bar {
     height: 3px;
     background: #000000c7;
     width: 0%;
   }
-  
-.content {
-    display: inline-block;
-    margin-top: 30px;
+
+.contentbox {
+    background-color: rgb(218, 218, 218);
+    text-align: center;
 }
 
-
+.content {
+    width: 70%;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+}
