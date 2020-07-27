@@ -3,7 +3,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {    
-    document.getElementById("center").style.backgroundColor = "#f9bb0050";
+    document.getElementById("center").style.backgroundColor = "#f9bb00d0";
   } else {
     document.getElementById("center").style.backgroundColor = "#f9bc00";
   }
