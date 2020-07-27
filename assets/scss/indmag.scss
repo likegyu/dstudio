@@ -6,12 +6,11 @@ body {
     float: left;
     width: 100%;
     text-align: center;
-    background-color: #ffbd2d;
+    background-color: #f9bc00;
     position: fixed;
     padding-top: 8px;
     max-height: 50px;
     overflow:hidden;
-    border-bottom: 6px double  black ;
 }
 
 .navbar {
@@ -37,16 +36,14 @@ body {
 }
 
 .menu {
-    color: #ffe3b4ff;
+    color: rgb(255, 255, 255);
     padding: 8px 16px;
-    text-decoration: none;
     font-family: 'Menlo', 'Courier New', Courier, Monospace;
 }
 
 .menu:hover {
     transition-duration: 0.3s;
     color: #161a1b;
-    background-color: #fccc65;
 }
 
 .content {
