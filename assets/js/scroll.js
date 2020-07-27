@@ -7,10 +7,7 @@ function scrollFunction() {
   } else {
     document.getElementById("center").style.backgroundColor = "#f9bc00";
   }
-}
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
+  //scrollbar
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
