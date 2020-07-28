@@ -22,10 +22,6 @@ body {
     width: 80%;
 }
 
-.navbar a {
-    float:left;
-}
-
 .logo {
     margin-right: 20px;
     width: 65px;
@@ -41,6 +37,7 @@ body {
 }
 
 .menu {
+    float: left;
     color: #161a1b;
     padding: 8px 16px;
     font-family: 'Menlo', 'Courier New', Courier, Monospace;
