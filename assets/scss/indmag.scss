@@ -19,6 +19,7 @@ body {
 
 .navbar {
     display:inline-block;
+    width: 80%;
 }
 
 .navbar a {
@@ -47,6 +48,17 @@ body {
 }
 
 .menu:hover {
+    transition-duration: 0.3s;
+    color:#ffffff80;
+}
+
+.icon {
+    font-size: 26px;
+    color: #161a1b;
+    padding: 5px 8px;
+    float: right;
+}
+.icon:hover {
     transition-duration: 0.3s;
     color:#ffffff80;
 }
