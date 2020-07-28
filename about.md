@@ -8,7 +8,10 @@ title: about
 
 ![indmag](/assets/images/indmag.svg)
 
-### We dreams of Daegu people connect each other and help together to makes better place
+### We dreams of people connect each other and help together to makes better place
+
+
+
 
 
 
@@ -18,9 +21,15 @@ title: about
 
 
 
+
+
+
 #### Purpose
 
 본지를 발행하는 D studio는 특별한 규정 없는 대구의 로컬 모임입니다. L.L.L의 공간 한켠에 자리잡은 이 스튜디오는 구성원들의 관심사를 어떤 형태로든 공유하는 것을 목적으로 합니다. 계간지 “IN_D”는 그 중심에서 지역의 정체성을 가지고 독립성과 다양성을 존중하며 대구의 문화와 사람들을 이어주는 다리가 되길 바랍니다.
+
+
+
 
 
 
@@ -34,7 +43,13 @@ IN_D는 대구 곳곳을 찍은 사진을 아카이빙합니다. 모든 사진�
 
 
 
+
+
+
 #### Always waiting for you
 
 IN_D는 사진, 그림, 영상, 음악, 에세이, 문학 등 여러 장르를 심도있게 소개하는 매체가 되고싶습니다. 대구를 기반으로 다양한 활동을 진행중인 여러분을 기다립니다. 
+
+
+
 
