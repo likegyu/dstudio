@@ -5,7 +5,7 @@ email: "admin.dstudio.kr"
 instagram: "https://instagram.com/dstudio.kr"
 
 # Site config
-baseurl: "https://dstudio.kr"
+baseurl:
 highlighter: rouge
 sass:
   sass_dir: assets/scss
