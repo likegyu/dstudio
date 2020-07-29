@@ -37,6 +37,11 @@
         </div>
     </div>
     {% include footer.html %}
+    <script type="module">
+      import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+    
+      const swiper = new Swiper(...)
+    </script>
     <script> var Swiper = new Swiper('.swiper-container', {
         // If we need pagination
         pagination: {
@@ -46,4 +51,3 @@
       </script>
 </body>
 <script src="/assets/js/scroll.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
