@@ -5,14 +5,8 @@ email: "admin.dstudio.kr"
 instagram: "https://instagram.com/dstudio.kr"
 
 # Site config
-baseurl:
+baseurl: "https://dstudio.kr"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
   style: compressed
-
-  images: 
-  - image: /assets/images/apollo.jpg
-  - image: /assets/images/apollo.jpg
-  - image: /assets/images/apollo.jpg
-  - image: /assets/images/apollo.jpg
