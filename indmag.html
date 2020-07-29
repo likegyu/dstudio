@@ -1,6 +1,14 @@
 ---
 layout: indmag
 title: indmag
+galleries:
+  - title: Link to homepage
+    image: /assets/images/apollo.jpg
+    url: /
+  - title: Link to image gallery
+    image: /assets/images/apollo.jpg
+    url: /without-plugin/image-gallery
 ---
 
 {% include carousel.html height="50" unit="%" duration="7" %}
+{% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
