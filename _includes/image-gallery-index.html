@@ -5,10 +5,13 @@
     .image-gallery-index a span {display: block; text-align: left; padding: 5px 0;}
 </style>
 
-<div>
-    <p class="image-gallery-index">{% for item in page.galleries %}
-        <a href="{{ item.url }}" title="{{ item.title }}"><img src="{{ item.image }}" />
-            <span>{{ item.title }}</span><span>{{ item.tag }}</span><div>{{ item.content }}</div>
-        </a>
-    {% endfor %}</p>
-</div>
+<p class="image-gallery-index">
+    {% for item in page.galleries %}
+    <a href="{{ item.url }}" title="{{ item.title }}">
+        <img src="{{ item.image }}" />
+        <span>{{ item.title }}</span>
+        <span>{{ item.tag }}</span>
+        <span>{{ item.content }}</span>
+    </a>
+    {% endfor %}
+</p>
