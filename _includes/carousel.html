@@ -27,7 +27,7 @@
         <div class="carousel__track">
           <ul>
             {% for item in site.data.carousel.images %}
-            <a href="{{ site.url | replace: 'http://','' | replace: 'https://','' }}/post/slide/{{ item.image }}.md"><li class="carousel__slide" style="background-image: url('//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/assets/images/{{ item.image }}.jpg&w=1000&h=500&output=jpg&q=80&t=square');"></li></a>
+            <li class="carousel__slide" style="background-image: url('//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/assets/images/{{ item.image }}.jpg&w=1000&h=500&output=jpg&q=80&t=square');"></li>
             {% endfor %}
           </ul>
         </div>
