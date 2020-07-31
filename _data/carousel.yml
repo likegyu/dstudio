@@ -1,5 +1,5 @@
 images: 
-  - image: /assets/images/apollo0.jpg
-  - image: /assets/images/apollo1.jpg
-  - image: /assets/images/apollo2.jpg
-  - image: /assets/images/apollo3.jpg
+  - image: apollo0
+  - image: apollo1
+  - image: apollo2
+  - image: apollo3
