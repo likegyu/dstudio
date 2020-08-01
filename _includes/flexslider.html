@@ -4,9 +4,9 @@
   <ul class="slides">
     {% for item in site.data.carousel.images %}
     <li>
-        <a href="/{{ item.image }}.html">
+        
             <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/assets/images/{{ item.image }}.jpg&w=1000&h=500&output=jpg&q=80&t=square" />
-        </a>
+        
     </li>
     {% endfor %}
   </ul>
