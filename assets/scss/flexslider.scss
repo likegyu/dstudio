@@ -218,7 +218,7 @@ html[xmlns] .flexslider .slides {
   height: 10px;
   display: block;
   background: #666;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(99, 99, 99, 0.5);
   cursor: pointer;
   text-indent: -9999px;
   -webkit-border-radius: 20px;
@@ -227,11 +227,11 @@ html[xmlns] .flexslider .slides {
 }
 .flex-control-paging li a:hover {
   background: #333;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(32, 32, 32, 0.7);
 }
 .flex-control-paging li a.flex-active {
   background: #000;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(37, 37, 37, 0.9);
   cursor: default;
 }
 .flex-control-thumbs {
