@@ -7,7 +7,6 @@ instagram: "https://instagram.com/dstudio.kr"
 # Site config
 baseurl:
 highlighter: rouge
-permalink: pretty
 sass:
   sass_dir: assets/scss
   style: compressed
