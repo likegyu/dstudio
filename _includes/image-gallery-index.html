@@ -9,11 +9,11 @@
 </style>
 
 <p class="image-gallery-index">
-    {% for item in page.galleries %}
+    {% for item in site.posts %}
     <a href="{{ item.url }}" title="{{ item.title }}">
-        <img src="{{ item.image }}" />
+        <img src="{{ item.thumbnail }}" />
         <span class="title">{{ item.title }}</span>
-        <span class="tag">{{ item.tag }}</span>
+        <span class="tag">{{ item.categories }}</span>
         <span class="intro">{{ item.intro }}</span>
     </a>
     {% endfor %}
