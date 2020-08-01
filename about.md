@@ -6,7 +6,7 @@ title: about
 
 
 
-![indmag](/assets/images/indmag.svg)
+![indmag](/assets/images/logo/indmag.svg)
 
 ### We dreams of people connect each other and help together to makes better place
 
