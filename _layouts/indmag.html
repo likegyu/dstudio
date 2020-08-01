@@ -17,7 +17,14 @@
     <!-- Place in the <head>, after the three links -->
     <script type="text/javascript" charset="utf-8">
         $(window).load(function() {
-        $('.flexslider').flexslider();
+        $('.flexslider').flexslider(
+            {
+                animation: "slide",
+                randomize: true,
+                touch: true,
+                directionNav: false,
+            }
+        );
         });
     </script>
 </head>
