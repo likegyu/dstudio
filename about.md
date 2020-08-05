@@ -1,6 +1,6 @@
 ---
 layout: indmag
-title: about
+title: About
 ---
 # IN_D 는 대구의 독립문화를 알립니다.
 
