@@ -11,9 +11,49 @@
     <meta name="color-scheme" content="only light">
     <title>IN_D Magazine</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/003.css">
-    {% include favicon.html %}
-    {% include script.html %}
-    {% include og.html %}
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#f9bc00">
+<meta name="msapplication-TileImage" content="/assets/images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#f9bc00">
+    <script src="https://kit.fontawesome.com/5d44e9c537.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="/assets/js/jquery.flexslider.js"></script>
+<script src="/assets/js/scroll.js"></script>
+<!-- Place in the <head>, after the three links -->
+<script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+    $('.flexslider').flexslider(
+        {
+            animation: "slide",
+            randomize: true,
+            touch: true,
+            directionNav: false,
+            slideshowSpeed: 4000,
+        }
+    );
+    });
+</script>
+
+<meta property="og:locale" content="{{ ko_KR }}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="og:image" content="{% if page.thumbnail %}{{ site.url }}/{{ page.thumbnail }}">
+<meta property="og:description" content="{{ page.intro }}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
 </head>
 <body>
 <div id="center">
