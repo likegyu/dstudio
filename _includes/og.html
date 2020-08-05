@@ -1,0 +1,7 @@
+    <meta property="og:locale" content="{{ ko_KR }}">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta name="og:image" content="{% if page.thumbnail %}{{ site.url }}/{{ page.thumbnail }}">
+	<meta property="og:description" content="{{ page.intro }}">
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+	<meta property="og:site_name" content="{{ site.title }}">
