@@ -32,8 +32,11 @@
     <div class="contentbox">
         <div class="content">
             <article class="markdown-body">
-            {{ content }}
+                {{ content }}
             </article>
+            <div class="tags">
+                {% include post_tags.html %}
+            </div>
         </div>
     </div>
     {% include footer.html %}
