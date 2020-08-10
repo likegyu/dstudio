@@ -1,6 +1,7 @@
 ---
 layout: indmag
 ---
+<p class="tagname">{{ page.name }}</p>
 <p class="image-gallery-index">
     {% for post in site.posts limit:15 %}
         {% if post.tags contains page.name %}
