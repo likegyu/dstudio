@@ -5,5 +5,13 @@
 <span>{{ writer.name }}</span>
 <i class="fas fa-broadcast-tower" style="font-size: 11px;"></i><br>
 <span style="color: dimgray;">{{ writer.intro }}</span><br>
+{% if writer.homepage %}
+<a href="{{ writer.homepage }}" class="writer-icon" rel="author"><i class="fas fa-home"></i></a>
+{% endif %
+{% if writer.instagram %}
 <a href="{{ writer.instagram }}" class="writer-icon" rel="author"><i class="fab fa-instagram"></i></a>
+{% endif %}
+{% if writer.email %}
+<a href="{{ writer.email }}" class="writer-icon" rel="author"><i class="fas fa-envelope"></i></a>
+{% endif %}
 {% endif %}
