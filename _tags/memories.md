@@ -1,3 +1,3 @@
 ---
-name: 기억
+name: memories
 ---

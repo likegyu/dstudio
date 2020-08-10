@@ -1,3 +1,3 @@
 ---
-name: 도시
+name: city
 ---

@@ -1,3 +1,3 @@
 ---
-name: IN_D Magazine
+name: indmag
 ---

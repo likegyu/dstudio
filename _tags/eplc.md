@@ -1,3 +1,3 @@
 ---
-name: 이플릭
+name: eplc
 ---

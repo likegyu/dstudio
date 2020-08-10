@@ -1,3 +1,3 @@
 ---
-name: 영화
+name: cine
 ---

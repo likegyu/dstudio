@@ -1,3 +1,3 @@
 ---
-name: HOOLA
+name: hoola
 ---

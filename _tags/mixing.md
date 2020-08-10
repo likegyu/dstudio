@@ -1,3 +1,3 @@
 ---
-name: 믹싱
+name: mixing
 ---

@@ -1,3 +1,3 @@
 ---
-name: DJ
+name: dj
 ---

@@ -1,3 +1,3 @@
 ---
-name: 음악
+name: music
 ---
