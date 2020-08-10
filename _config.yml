@@ -11,3 +11,16 @@ permalink: pretty
 sass:
   sass_dir: assets/scss
   style: compressed
+
+# 태그 컬렉션
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+# 태그파일 디폴트
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
