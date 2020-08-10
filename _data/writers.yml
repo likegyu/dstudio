@@ -1,4 +1,4 @@
-- name: ind
+- writer: ind
   nickname: IN_D Magazine
   email: mailto:admin@dstudio.kr
   homepage: https://dstudio.kr
@@ -6,7 +6,7 @@
   img: /assets/images/favicon/favicon-96x96.png
   intro: 대구시 이모저모
 
-- name: gyu
+- writer: gyu
   nickname: GYU
   email: mailto:pptn2@kakao.com
   homepage: https://likegyu.com

@@ -1,4 +1,4 @@
-{% for writer in site.data.writers %}
+{% assign writer = site.data.writers[page.writer] %}
 <p>written by</p>
 <img src="{{ writer.img }}" alt="writer's img">
 <p>{{ writer.nickname }}</p>
