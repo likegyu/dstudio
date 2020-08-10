@@ -1,0 +1,7 @@
+{% assign writer = site.data.writer[page.writer] %}
+<p>written by</p>
+<img src="{{ writer.img }}" alt="writer's img">
+<p>{{ writer.nickname }}</p>
+<a href="{{ writer.instagram }}" class="icon"><i class="fab fa-instagram"></i></a>
+<a href="{{ writer.homepage }}" class="icon"><i class="fab fa-instagram"></i></a>
+<p>{{ writer.intro }}</p>
