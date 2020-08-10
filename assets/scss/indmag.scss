@@ -105,7 +105,17 @@ h3{
         width: 90%;
     }
 }
-
+.tags a{
+    display: inline-block;
+    height: 26px;
+    margin: 4px 4px 0 0;
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 27px;
+    background-color: #161a1b;
+    vertical-align: top;
+    color: whitesmoke;
+}
 .footer{
     background-color: #f5f5f5;
     padding-bottom: 30px;
