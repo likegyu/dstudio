@@ -1,16 +1,15 @@
-writers:
-  - writer: ind
-      nickname: IN_D Magazine
-      email: mailto:admin@dstudio.kr
-      homepage: https://dstudio.kr
-      instagram: https://instagram.com/dstudio.kr
-      img: /assets/images/favicon/favicon-96x96.png
-      intro: 대구시 이모저모
+- writer: ind
+  nickname: IN_D Magazine
+  email: mailto:admin@dstudio.kr
+  homepage: https://dstudio.kr
+  instagram: https://instagram.com/dstudio.kr
+  img: /assets/images/favicon/favicon-96x96.png
+  intro: 대구시 이모저모
 
-  - writer: gyu
-      nickname: GYU
-      email: mailto:pptn2@kakao.com
-      homepage: https://likegyu.com
-      instagram: https://instagram.com/emptymindlessfantasy
-      img: /assets/images/members/gyu.jpg
-      intro: 취미가 다양한 사람.
+- writer: gyu
+  nickname: GYU
+  email: mailto:pptn2@kakao.com
+  homepage: https://likegyu.com
+  instagram: https://instagram.com/emptymindlessfantasy
+  img: /assets/images/members/gyu.jpg
+  intro: 취미가 다양한 사람.
