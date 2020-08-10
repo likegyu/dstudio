@@ -4,6 +4,7 @@ title: 남구 도시 기억 아카이브, 기억 현상소 진행中
 categories: news
 intro: 사라지는 동네에대한 기억을 현상하여 영원히 남기자.
 thumbnail: /assets/images/thumbnail/2020-08-06-01.jpg
+tags: [hoola, memories, city]
 ---
 # {{ page.title }}
 ![1](/assets/images/post/2020-08-06-01-01.jpg)
