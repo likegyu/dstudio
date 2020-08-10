@@ -31,12 +31,14 @@
 </div>
     <div class="contentbox">
         <div class="content">
+        <div class="wrap-post">
             <article class="markdown-body">
                 {{ content }}
             </article>
-            <div class="tags">
-                {% include tags.html %}
-            </div>
+        </div>
+        <div class="tags">
+            {% include tags.html %}
+        </div>
         </div>
     </div>
     {% include footer.html %}
