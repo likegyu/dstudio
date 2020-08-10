@@ -2,7 +2,7 @@
 layout: indmag
 ---
 <h1>#{{ page.name }}</h1>
-<p>{{ site.tags[page.name] | size }}개의 게시글이 있습니다.</p>
+<p>{{ post.tags[page.name] | size }}개의 게시글이 있습니다.</p>
 <p class="image-gallery-index">
     {% for post in site.posts limit:15 %}
         {% if post.tags contains page.name %}
