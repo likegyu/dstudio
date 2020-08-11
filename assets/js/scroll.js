@@ -1,11 +1,13 @@
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function() {scrollFunction()};
 
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
+var navbar = document.getElementsByClassName("navbar");
+
 function scrollFunction() {
   //progressbar
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
   //barcolor
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
@@ -15,9 +17,8 @@ function scrollFunction() {
   }
   //shrinkbar
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
-    var navbar = document.getElementsByClassName('navbar');
-    for(var n in navbar) navbar[n].style.height = '30px';
+    for(var n in navbar) navbar[n].style.height = "30px";
     } else{
-    for(var n in navbar) navbar[n].style.height = '60px';
+    for(var n in navbar) navbar[n].style.height = "60px";
    }
 }
