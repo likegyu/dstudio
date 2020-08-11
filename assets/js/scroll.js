@@ -2,17 +2,22 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  var navbar = document.getElementsByClassName("navbar");
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("center").style.backgroundColor = "#f9bb00d0";
-    for(var n in navbar) navbar[n].style.height = "30px";
-  } else {
-    document.getElementById("center").style.backgroundColor = "#f9bc00";
-    for(var n in navbar) navbar[n].style.height = "60px";
-  }
-  //scrollbar
+  //progressbar
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
+  //barcolor
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+    document.getElementById("center").style.backgroundColor = "#f9bb00d0";
+  } else{
+    document.getElementById("center").style.backgroundColor = "#f9bc00";
+  }
+//shrinkbar
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+    var navbar = document.getElementsByClassName("navbar");
+    for(var n in navbar) navbar[n].style.height = "30px";
+    } else{
+    for(var n in navbar) navbar[n].style.height = "60px";
+   }
 }
