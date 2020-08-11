@@ -36,7 +36,7 @@ body {
     background-image: url("/assets/images/logo/logo-2.svg");
 }
 
-.menu {
+.menu a{
     float: left;
     color: #161a1b;
     padding: 12px 10px;
@@ -44,17 +44,17 @@ body {
     text-decoration:none;
 }
 
-.menu:hover {
+.menu a:hover {
     transition-duration: 0.3s;
     color:#ffffff80;
 }
 
-.icon {
+.icon i{
     font-size: 26px;
     color: #161a1b;
     margin: 10px;
 }
-.icon:hover {
+.icon i:hover {
     transition-duration: 0.3s;
     color:#ffffff80;
 }
@@ -99,7 +99,7 @@ h3{
         padding: 15px;
         padding-bottom: 30px;
     }
-    .menu {
+    .menu a{
         padding: 12px 7px;
     }
     .navbar {
