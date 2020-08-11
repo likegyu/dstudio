@@ -2,12 +2,11 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {   
-    var navbar = document.getElementsByClassName("navbar");
+  var navbar = document.getElementsByClassName("navbar");
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("center").style.backgroundColor = "#f9bb00d0";
     for(var n in navbar) navbar[n].style.height = "30px";
   } else {
-    var navbar = document.getElementsByClassName("navbar");
     document.getElementById("center").style.backgroundColor = "#f9bc00";
     for(var n in navbar) navbar[n].style.height = "60px";
   }
