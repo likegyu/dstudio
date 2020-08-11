@@ -41,6 +41,6 @@ function scrollFunction() {
     for(var i = 0; i < 1; i++)
     insta[i].style.margin = "";
     for(var i = 0; i < 1; i++)
-    insta[i].style.margin = "";
+    soundcloud[i].style.margin = "";
    }
 }
