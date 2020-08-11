@@ -24,7 +24,7 @@ body {
 
 .navbar {
     display:inline-flex;
-    width: 95%;
+    width: 85%;
     height: 60px;
 }
 
@@ -109,6 +109,9 @@ h3{
     }
     .menu a{
         padding: 12px 7px;
+    }
+    .navbar{
+        width: 95%;
     }
 }
 .tags{
