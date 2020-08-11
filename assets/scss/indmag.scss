@@ -39,7 +39,7 @@ body {
 .menu {
     float: left;
     color: #161a1b;
-    padding: 2px;
+    padding: 12px 10px;
     font-family: 'Menlo', 'Courier New', Courier, Monospace;
     text-decoration:none;
 }
@@ -52,7 +52,7 @@ body {
 .icon {
     font-size: 26px;
     color: #161a1b;
-    padding: 12px;
+    margin: 10px;
 }
 .icon:hover {
     transition-duration: 0.3s;
@@ -100,7 +100,7 @@ h3{
         padding-bottom: 30px;
     }
     .menu {
-        padding: 8px 7px;
+        padding: 12px 7px;
     }
     .navbar {
         width: 90%;
