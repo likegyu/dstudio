@@ -5,10 +5,10 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {   
     var navbar = document.getElementsByClassName("navbar");
     document.getElementById("center").style.backgroundColor = "#f9bb00d0";
-    for(var n in navbar) navbar[n].style.width = "30px";
+    for(var n in navbar) navbar[n].style.height = "30px";
   } else {
     document.getElementById("center").style.backgroundColor = "#f9bc00";
-    for(var n in navbar) navbar[n].style.width = "60px";
+    for(var n in navbar) navbar[n].style.height = "60px";
   }
   //scrollbar
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
