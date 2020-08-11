@@ -17,14 +17,20 @@ function scrollFunction() {
   var navbar = document.getElementsByClassName("navbar");
   var icon = document.getElementsByClassName("icon");
   var menu = document.getElementsByClassName("menu");
+  var insta = document.getElementsByClassName("fab fa-instagram");
+  var soundcloud = document.getElementsByClassName("fab fa-soundcloud");
 
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
     for(var i = 0; i < 1; i++)
-    navbar[i].style.height = "30px";
+    navbar[i].style.height = "20px";
     for(var i = 0; i < 1; i++)
     icon[i].style.transform = "translateY(-100px)";
     for(var i = 0; i < 1; i++)
     menu[i].style.transform = "translateY(-100px)";
+    for(var i = 0; i < 1; i++)
+    insta[i].style.margin = "0";
+    for(var i = 0; i < 1; i++)
+    soundcloud[i].style.margin = "0";
     } else{
     for(var i = 0; i < 1; i++)
     navbar[i].style.height = "60px";
@@ -32,5 +38,9 @@ function scrollFunction() {
     icon[i].style.transform = "";
     for(var i = 0; i < 1; i++)
     menu[i].style.transform = "";
+    for(var i = 0; i < 1; i++)
+    insta[i].style.margin = "";
+    for(var i = 0; i < 1; i++)
+    insta[i].style.margin = "";
    }
 }
