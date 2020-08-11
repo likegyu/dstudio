@@ -22,23 +22,15 @@ function scrollFunction() {
     for(var i = 0; i < 1; i++)
     navbar[i].style.height = "30px";
     for(var i = 0; i < 1; i++)
-    icon[i].style.width = "0";
+    icon[i].style.marginLeft = "-200px";
     for(var i = 0; i < 1; i++)
-    icon[i].style.overflow = "hidden";
-    for(var i = 0; i < 1; i++)
-    menu[i].style.width = "0";
-    for(var i = 0; i < 1; i++)
-    menu[i].style.overflow = "hidden";
+    menu[i].style.marginRight = "-200px";
     } else{
     for(var i = 0; i < 1; i++)
     navbar[i].style.height = "60px";
     for(var i = 0; i < 1; i++)
-    icon[i].style.width = "";
+    icon[i].style.marginLeft = "";
     for(var i = 0; i < 1; i++)
-    icon[i].style.overflow = "";
-    for(var i = 0; i < 1; i++)
-    menu[i].style.width = "";
-    for(var i = 0; i < 1; i++)
-    menu[i].style.overflow = "";
+    menu[i].style.marginRight = "";
    }
 }

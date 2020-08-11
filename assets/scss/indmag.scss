@@ -27,7 +27,7 @@ body {
     width: 85%;
     height: 60px;
     padding-bottom: 8px;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 
 .logo {
@@ -44,11 +44,12 @@ body {
 }
 .menu{
     width: 80px;
-    margin: 14px 0;
+    margin: 17px 0;
+    transition-duration: 0.3s;
 }
 .menu a{
     color: #161a1b;
-    padding: 17px 5px;
+    padding: 10px 5px;
     font-family: 'Menlo', 'Courier New', Courier, Monospace;
     text-decoration:none;
 }
@@ -59,6 +60,7 @@ body {
 }
 .icon{
     width: 80px;
+    transition-duration: 0.3s;
 }
 .icon i{
     font-size: 26px;
