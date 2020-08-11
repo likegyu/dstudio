@@ -35,7 +35,9 @@ body {
 .logo:hover {
     background-image: url("/assets/images/logo/logo-2.svg");
 }
-
+.menu{
+    width: 150px;
+}
 .menu a{
     float: left;
     color: #161a1b;
@@ -48,7 +50,9 @@ body {
     transition-duration: 0.3s;
     color:#ffffff80;
 }
-
+.icon{
+    width: 150px;
+}
 .icon i{
     font-size: 26px;
     color: #161a1b;
