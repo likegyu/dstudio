@@ -8,7 +8,7 @@ function scrollFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
   //barcolor
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
     document.getElementById("center").style.backgroundColor = "#f9bb00d0";
   } else{
     document.getElementById("center").style.backgroundColor = "#f9bc00";
@@ -20,7 +20,7 @@ function scrollFunction() {
   var insta = document.getElementsByClassName("fab fa-instagram");
   var soundcloud = document.getElementsByClassName("fab fa-soundcloud");
 
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
     for(var i = 0; i < 1; i++)
     navbar[i].style.height = "20px";
     for(var i = 0; i < 1; i++)
