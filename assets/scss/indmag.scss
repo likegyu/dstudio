@@ -20,7 +20,7 @@ body {
 
 .navbar {
     display:inline-flex;
-    width: 80%;
+    width: 95%;
     height: 60px;
 }
 
@@ -36,10 +36,9 @@ body {
     background-image: url("/assets/images/logo/logo-2.svg");
 }
 .menu{
-    width: 150px;
+    width: 80px;
 }
 .menu a{
-    float: left;
     color: #161a1b;
     padding: 15px 5px;
     font-family: 'Menlo', 'Courier New', Courier, Monospace;
@@ -51,7 +50,7 @@ body {
     color:#ffffff80;
 }
 .icon{
-    width: 150px;
+    width: 80px;
 }
 .icon i{
     font-size: 26px;
@@ -99,15 +98,12 @@ h3{
 
 @media (max-width: 768px) {
     .content {
-        width: 90%;
+        width: 100%;
         padding: 15px;
         padding-bottom: 30px;
     }
     .menu a{
         padding: 12px 7px;
-    }
-    .navbar {
-        width: 90%;
     }
 }
 .tags{
