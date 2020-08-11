@@ -22,15 +22,15 @@ function scrollFunction() {
     for(var i = 0; i < 1; i++)
     navbar[i].style.height = "30px";
     for(var i = 0; i < 1; i++)
-    icon[i].style.marginLeft = "-200px";
+    icon[i].style.transform = "translateY(-100px)";
     for(var i = 0; i < 1; i++)
-    menu[i].style.marginRight = "-200px";
+    menu[i].style.transform = "translateY(-100px)";
     } else{
     for(var i = 0; i < 1; i++)
     navbar[i].style.height = "60px";
     for(var i = 0; i < 1; i++)
-    icon[i].style.marginLeft = "";
+    icon[i].style.transform = "";
     for(var i = 0; i < 1; i++)
-    menu[i].style.marginRight = "";
+    menu[i].style.transform = "";
    }
 }
