@@ -13,11 +13,11 @@ function scrollFunction() {
   } else{
     document.getElementById("center").style.backgroundColor = "#f9bc00";
   }
-//shrinkbar
+  //shrinkbar
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
-    var navbar = document.getElementsByClassName("navbar");
-    for(var n in navbar) navbar[n].style.height = "30px";
+    var navbar = document.getElementsByClassName('navbar');
+    for(var n in navbar) navbar[n].style.height = '30px';
     } else{
-    for(var n in navbar) navbar[n].style.height = "60px";
+    for(var n in navbar) navbar[n].style.height = '60px';
    }
 }
