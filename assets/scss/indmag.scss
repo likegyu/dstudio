@@ -30,8 +30,9 @@ body {
 }
 
 .logo {
-    width: 100px;
-    height: 55px;
+    width: 120px;
+    height: 100%;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("/assets/images/logo/logo.svg");

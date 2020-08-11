@@ -8,16 +8,24 @@ function scrollFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
   //barcolor
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
     document.getElementById("center").style.backgroundColor = "#f9bb00d0";
   } else{
     document.getElementById("center").style.backgroundColor = "#f9bc00";
   }
   //shrinkbar
   var navbar = document.getElementsByClassName("navbar");
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
-    for(var i = 0; i < 1; i++) navbar[i].style.height = "30px";
+  var icon = document.getElementsByClassName("icon");
+  var menu = document.getElementsByClassName("menu");
+
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
+    for(var i = 0; i < 1; i++)
+    navbar[i].style.height = "30px";
+    icon[i].style.width = "0"; icon[i].style.overflow = "hidden";
+    menu[i].style.width = "0"; menu[i].style.overflow = "hidden";
     } else{
     for(var i = 0; i < 1; i++) navbar[i].style.height = "60px";
+    icon[i].style.width = ""; icon[i].style.overflow = "";
+    menu[i].style.width = ""; menu[i].style.overflow = "";
    }
 }
