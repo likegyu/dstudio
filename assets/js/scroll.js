@@ -21,11 +21,24 @@ function scrollFunction() {
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
     for(var i = 0; i < 1; i++)
     navbar[i].style.height = "30px";
-    icon[i].style.width = "0"; icon[i].style.overflow = "hidden";
-    menu[i].style.width = "0"; menu[i].style.overflow = "hidden";
+    for(var i = 0; i < 1; i++)
+    icon[i].style.width = "0";
+    for(var i = 0; i < 1; i++)
+    icon[i].style.overflow = "hidden";
+    for(var i = 0; i < 1; i++)
+    menu[i].style.width = "0";
+    for(var i = 0; i < 1; i++)
+    menu[i].style.overflow = "hidden";
     } else{
-    for(var i = 0; i < 1; i++) navbar[i].style.height = "60px";
-    icon[i].style.width = ""; icon[i].style.overflow = "";
-    menu[i].style.width = ""; menu[i].style.overflow = "";
+    for(var i = 0; i < 1; i++)
+    navbar[i].style.height = "60px";
+    for(var i = 0; i < 1; i++)
+    icon[i].style.width = "";
+    for(var i = 0; i < 1; i++)
+    icon[i].style.overflow = "";
+    for(var i = 0; i < 1; i++)
+    menu[i].style.width = "";
+    for(var i = 0; i < 1; i++)
+    menu[i].style.overflow = "";
    }
 }
