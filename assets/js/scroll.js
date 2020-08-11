@@ -4,7 +4,6 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {    
     document.getElementById("center").style.backgroundColor = "#f9bb00d0";
-    document.getElementsByClassName("icon").style.fontSize = "0px";
   } else {
     document.getElementById("center").style.backgroundColor = "#f9bc00";
   }
