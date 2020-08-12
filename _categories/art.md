@@ -1,3 +1,4 @@
 ---
-name: Art
+name: art
+title: Art
 ---

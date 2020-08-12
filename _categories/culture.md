@@ -1,3 +1,4 @@
 ---
-name: Culture
+name: culture
+title: Culture
 ---
