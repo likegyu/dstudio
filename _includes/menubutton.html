@@ -1,6 +1,6 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
-    {% for categorie in site.categories %}
+    {% for categorie in site.data.categories %}
     <a href="https://dstudio.kr/categories/{{ categorie }}">{{ categorie }}</a>
     {% endfor %}
     <div id="menufooter">
