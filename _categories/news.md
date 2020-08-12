@@ -1,3 +1,3 @@
 ---
-name: News
+name: news
 ---
