@@ -24,3 +24,16 @@ defaults:
       type: tags
     values:
       layout: tag
+
+# 카테고리 컬렉션
+collections:
+  categories:
+    output: true
+    permalink: /categories/:path/
+# 카테고리파일 디폴트
+defaults:
+  - scope:
+      path: ''
+      type: categories
+    values:
+      layout: categories

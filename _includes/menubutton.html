@@ -1,7 +1,8 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
-    <a href="https://dstudio.kr/about">About</a>
-    <a href="mailto:admin@dstudio.kr">Contact</a>
+    {% for categorie in site.categories %}
+    <a href="https://dstudio.kr/categories/{{ categorie }}">{{ categories }}</a>
+    {% endfor %}
     <div id="menufooter">
       <p>about contact etc</p>
     </div>
