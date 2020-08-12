@@ -7,15 +7,12 @@ body {
 }
 
 #center {
-    transition-duration: 0.4s;
-    float: left;
     width: 100%;
     text-align: center;
     background-color: #f9bc00;
     position: fixed;
     z-index: 2;
     padding-top: 8px;
-    overflow:hidden;
 }
 
 .navbar {
