@@ -1,3 +1,4 @@
 ---
+categories: culture
 name: Culture
 ---

@@ -1,3 +1,4 @@
 ---
+categories: art
 name: Art
 ---

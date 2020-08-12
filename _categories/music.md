@@ -1,3 +1,4 @@
 ---
+categories: music
 name: Music
 ---

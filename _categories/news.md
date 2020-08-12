@@ -1,3 +1,4 @@
 ---
+categories: news
 name: News
 ---
