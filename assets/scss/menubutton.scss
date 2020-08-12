@@ -28,12 +28,11 @@
   
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
-    display: inline-block;
+    display: block;
     position: sticky;
-    top: 15px;
     right: 32px;
     font-size: 28px;
-    margin-left: 130px;
+    margin-left: 110px;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
