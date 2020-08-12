@@ -37,9 +37,9 @@
     font-size: 28px;
     margin-left: 110px;
   }
-  #menufooter {
+  .menufooter {
     height: 150px;
-    width: 0px;
+    width: 251;
     bottom: 0;
     background-color: #f9bc00;
     position: fixed;
@@ -54,4 +54,11 @@
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  @media (max-width: 768px) {
+      .menufooter{
+        width: 100%;
+      }
+
   }
