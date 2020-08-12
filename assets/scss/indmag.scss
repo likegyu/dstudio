@@ -25,19 +25,18 @@ body {
     padding-bottom: 8px;
     transition-duration: 0.3s;
 }
-
-.logo {
+.logo-wrap {
     width: 120px;
-    height: 100%;
-    margin-top: 2px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("/assets/images/logo/logo.svg");
+    height: 60px;
+    margin: 0 auto;
 }
-
-.logo:hover {
-    background-image: url("/assets/images/logo/logo-2.svg");
+#logo0{
+    width: 120px;
+    height: 60px;
+}
+#logo1{
+    width: 120px;
+    height: 60px;
 }
 .menu{
     width: 80px;
