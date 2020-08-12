@@ -1,3 +1,3 @@
 ---
-name: culture
+name: Culture
 ---
