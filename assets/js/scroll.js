@@ -7,12 +7,13 @@ function scrollFunction() {
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
-  //barcolor
+  /*barcolor
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
     document.getElementById("center").style.backgroundColor = "#f9bb00d0";
   } else{
     document.getElementById("center").style.backgroundColor = "#f9bc00";
   }
+  */
   //shrinkbar
   var navbar = document.getElementsByClassName("navbar");
   var icon = document.getElementsByClassName("icon");
