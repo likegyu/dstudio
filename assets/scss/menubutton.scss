@@ -19,6 +19,8 @@
     font-size: 25px;
     color: #818181;
     display: block;
+    text-align: right;
+    margin-right: 35px;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -35,7 +37,13 @@
     font-size: 28px;
     margin-left: 110px;
   }
-  
+  #menufooter{
+    height: 150px;
+    width: 0px;
+    bottom: 0;
+    background-color: #f9bc00;
+    position: fixed;
+  }
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
     transition: margin-left .5s;
