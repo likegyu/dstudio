@@ -33,6 +33,10 @@ body {
 #logo0{
     width: 120px;
     height: 60px;
+    position: absolute;
+}
+#logo0:hover{
+    opacity: 0;
 }
 #logo1{
     width: 120px;
