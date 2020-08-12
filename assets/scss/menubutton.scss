@@ -13,10 +13,11 @@
   }
   /* The side navigation menu */
 #menufooter {
+  transition-duration: 0.3s;
   height: 150px; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  z-index: 2; /* Stay on top */
   bottom: 0; /* Stay at the top */
   right: 0;
   background-color: #f9bc00; /* Black*/
