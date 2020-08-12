@@ -4,7 +4,7 @@ layout: indmag
 <h1>{{ page.title }}</h1>
 <p class="image-gallery-index">
     {% for post in site.posts limit:15 %}
-        {% if post.tags contains page.name %}
+        {% if post.categories contains page.name %}
             <a href="{{ post.url }}" title="{{ post.title }}">
                 <img src="{{ post.thumbnail }}" />
                 <span class="title">{{ post.title }}</span>
