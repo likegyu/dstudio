@@ -32,6 +32,10 @@ function scrollFunction() {
     insta[i].style.margin = "0";
     for(var i = 0; i < 1; i++)
     soundcloud[i].style.margin = "0";
+    document.getElementById("logo0").style.width = "40px";
+    document.getElementById("logo0").style.height = "20px";
+    document.getElementById("logo1").style.width = "40px";
+    document.getElementById("logo1").style.height = "20px";
     } else{
     for(var i = 0; i < 1; i++)
     navbar[i].style.height = "60px";
@@ -43,5 +47,9 @@ function scrollFunction() {
     insta[i].style.margin = "";
     for(var i = 0; i < 1; i++)
     soundcloud[i].style.margin = "";
+    document.getElementById("logo0").style.width = "";
+    document.getElementById("logo0").style.height = "";
+    document.getElementById("logo1").style.width = "";
+    document.getElementById("logo1").style.height = "";
    }
 }
