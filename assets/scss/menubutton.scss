@@ -1,5 +1,6 @@
 /* The side navigation menu */
 .sidenav {
+    text-align: right;
     white-space: nowrap;
     height: calc(100% - 180px); /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -29,11 +30,12 @@
   
   /* The navigation menu links */
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    text-transform: capitalize;
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 18px;
     color: #9e9e9e;
-    display: block;
+    display: inline-block;
     text-align: right;
     margin-right: 35px;
   }
@@ -45,7 +47,7 @@
   
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
-    display: block;
+    display: inline-block;
     position: sticky;
     right: 32px;
     top: 0;
