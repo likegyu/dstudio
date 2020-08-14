@@ -4,8 +4,25 @@
     <a href="https://dstudio.kr/categories/{{ categorie }}">{{ categorie }}</a>
     {% endfor %}
     <a href="https://dstudio.kr/slide/1.html">대구사진 현상수배</a>
+    <div class="tags-expo">
+      <div class="tags-expo-list">
+        {% for tag in site.tags %}
+        <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+        {% endfor %}
+      </div>
   </div>
-<div id="menufooter"><p>About Contact ETC</p></div>
+<div id="menufooter">
+  <input id = "url" type = "text" name = "url" 
+  placeholder = "Enter a url here"> 
+<input type = "submit" name = "button" onclick = "fun()"> 
+<script> 
+function fun() { 
+var site = "https://dstudio.kr/indmag/tags/";
+var url= document.getElementById("url").value; 
+setTimeout(function(){window.location = site.url;}, 0000); 
+} 
+</script> 
+</div>
   
   <!-- Use any element to open the sidenav -->
   <span onclick="openNav()" class="icon"><i class="fas fa-bars" style="cursor:pointer;"></i></span>
