@@ -1,4 +1,4 @@
 ---
 name: news
-title: News
+title: news
 ---

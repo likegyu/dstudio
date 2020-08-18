@@ -1,4 +1,4 @@
 ---
 name: art
-title: Art
+title: art
 ---

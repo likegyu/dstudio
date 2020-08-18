@@ -1,4 +1,4 @@
 ---
 name: music
-title: Music
+title: music
 ---
