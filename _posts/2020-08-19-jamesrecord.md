@@ -10,7 +10,7 @@ tags: [jamesrecord, music, vinyl, indiemusic]
 # {{ page.title }}
 
 ![제임스레코드 기념음반](/assets/images/post/2020-08-19-01-01.jpg)
-*일러스트: [pallo_drawing](https://www.instagram.com/pallo_drawing/)*
+*일러스트: pallo_drawing*
 
 
 
@@ -40,7 +40,7 @@ B side
 
 4. Workers High - 오늘도무사히
 
-5. Bonus Track(Bicycle man demo)[^1]
+5. Bonus Track(Bicycle man demo)[^*]
 
    
 
@@ -54,5 +54,5 @@ B side
 
 
 
-[^1]: Summer never comes의 같은 곡 데모버전. 
+[^*]: Summer never comes의 같은 곡 데모버전. 
 
