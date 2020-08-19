@@ -9,7 +9,7 @@ tags: [jamesrecord, music, vinyl, indiemusic]
 ---
 # {{ page.title }}
 
-![제임스레코드 기념음반](assets/images/post/2020-08-19-01-01.jpg)
+![제임스레코드 기념음반](/assets/images/post/2020-08-19-01-01.jpg)
 
 *일러스트: [pallo_drawing](https://www.instagram.com/pallo_drawing/)*
 
