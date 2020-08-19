@@ -73,7 +73,9 @@
   .markdown-body summary {
     display: list-item;
   }
-  
+  .markdown-body em {
+    font-size: 12px;
+}
   .markdown-body a {
     background-color: initial;
   }
