@@ -40,7 +40,7 @@ B side
 
 4. Workers High - 오늘도무사히
 
-5. Bonus Track(Bicycle man demo)[^1]
+5. Bonus Track(Bicycle man demo) - Summer never comes
 
    
 
@@ -51,9 +51,4 @@ B side
 [제임스레코드 인스타그램](https://www.instagram.com/jamesrecord/)
 
 [제임스레코드 기념음반 구매링크](https://form.office.naver.com/form/responseView.cmd?formkey=NjI0MTlmOTgtMWI2Yi00NWM2LThmNjctOTMxYmMxOTY0NDk3&sourceId=urlshare)
-
-<br><br><br>
-
-
-[^1]: Summer never comes의 같은 곡 데모버전. 
 
