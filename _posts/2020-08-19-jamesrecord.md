@@ -4,12 +4,12 @@ writer: gyu
 title: 제임스레코드 기념음반 'EVERYDAY JAMES' 프리오더 진행 중
 categories: music
 intro: 지역 기반의 인디뮤지션들이 여럿 참여한다.
-thumbnail: /assets/images/post/2020-08-07-01-01.jpg
+thumbnail: /assets/images/thumbnail/2020-08-19-01.jpg
 tags: [jamesrecord, music, vinyl, indiemusic]
 ---
 # {{ page.title }}
 
-![제임스레코드 기념음반](/Users/choeseong-gyu/Desktop/1/24f6d09b-b2ea-4e62-a9d5-099e1c9f3f97.jpeg)
+![제임스레코드 기념음반](assets/images/post/2020-08-19-01-01.jpg)
 
 *일러스트: [pallo_drawing](https://www.instagram.com/pallo_drawing/)*
 
