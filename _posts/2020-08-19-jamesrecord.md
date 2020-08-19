@@ -40,7 +40,7 @@ B side
 
 4. Workers High - 오늘도무사히
 
-5. Bonus Track(Bicycle man demo)[^*]
+5. Bonus Track(Bicycle man demo)[^1]
 
    
 
@@ -54,5 +54,5 @@ B side
 
 
 
-[^*]: Summer never comes의 같은 곡 데모버전. 
+[^1]: Summer never comes의 같은 곡 데모버전. 
 
