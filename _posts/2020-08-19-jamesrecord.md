@@ -12,7 +12,7 @@ tags: [jamesrecord, music, vinyl, indiemusic]
 ![제임스레코드 기념음반](/assets/images/post/2020-08-19-01-01.jpg)
 *일러스트: pallo_drawing*
 
-
+<br>
 
 동성로에 위치한 바이닐 펍 제임스레코드가 4주년 기념티셔츠에 이어 기념음반 발매를 준비하고있다. 제임스레코드는 대구 지역과 동성로 음악 문화의 상징처럼 성장해왔고 지역 기반의 뮤지션들과 다양한 콘서트도 기획하며 일종의 커뮤니케이션 공간으로 자리잡고있다. 이런 지역성을 나타내듯 기념음반에는 대구의 드링킹소년소녀합창단, 광주의 Summer never comes, 부산의 김일두 등 7팀이 각자 지역을 기반으로 탄탄한 입지를 다진 뮤지션들의 노래들이 실린다.
 
@@ -52,6 +52,7 @@ B side
 
 [제임스레코드 기념음반 구매링크](https://form.office.naver.com/form/responseView.cmd?formkey=NjI0MTlmOTgtMWI2Yi00NWM2LThmNjctOTMxYmMxOTY0NDk3&sourceId=urlshare)
 
+<br><br><br>
 
 
 [^*]: Summer never comes의 같은 곡 데모버전. 
