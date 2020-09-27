@@ -1,7 +1,7 @@
 ---
 layout: indmag
 writer: gyu
-title: 대구사진비엔날레 Pre-event 특별전 진행 중
+title: 대구사진비엔날레 Pre-event 특별전
 categories: art
 intro: 대구사진비엔날레 2021년으로 연기됨에 따라 대구문화예술회관이 특별기획전을 준비했다.
 thumbnail: /assets/images/post/2020-09-27-01-01.jpg

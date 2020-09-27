@@ -1,7 +1,7 @@
 ---
 layout: indmag
 writer: gyu
-title: 남구 도시 기억 아카이브, 기억 현상소 진행中
+title: 남구 도시 기억 아카이브, 기억 현상소
 categories: news
 intro: 사라지는 동네에대한 기억을 현상하여 영원히 남기자.
 thumbnail: /assets/images/thumbnail/2020-08-06-01.jpg
