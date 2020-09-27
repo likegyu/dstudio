@@ -22,7 +22,6 @@ tags: [photography, exhibition]
 더불어 12년만에 대구의 과거 사진을 수록한 도록을 발간한다고 하며 이 전보다 더욱 풍부한 사진들을 싣게 되었다고 밝혔다. 비록 먼 과거의 풍경들 이지만 어딘가 익숙해 보이는 공간들을 보며 대구인으로서 정체성과 위치를 다시한번 확인하는 전시가 될 듯 하다. 
 
 <br>
-<br>
 
 ![viewfindthe exhibition photo](/assets/images/post/2020-09-27-01-03.jpg)
 ![viewfindthe exhibition photo](/assets/images/post/2020-09-27-01-04.jpg)
