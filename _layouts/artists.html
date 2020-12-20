@@ -24,11 +24,11 @@
     <div class="contentbox">
         <div class="content">
         <div class="wrap-post">
-            {% assign artist = site.data.artists[page.artist] %}
             {% if page.artist %}
                 {{ content }}
                 <article class="info">
-                    <p>{{ artist.info }}</p>
+                    {% assign art = site.data.artists[page.artist] %}
+                    <p>{{ art.info }}</p>
                 </article>
             {% else %}
                 <article class="artists">
