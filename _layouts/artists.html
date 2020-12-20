@@ -24,8 +24,8 @@
             {% else %}
                 <article class="artists">
                     {% for artist in site.data.artists %}
-                    <a href="https://dstudio.kr/artists/{{ artists.name }}">
-                        <span>{{ artists.name }} 
+                    <a href="https://dstudio.kr/artists/{{ artist.adressname }}">
+                        <span>{{ artist.name }} 
                         </span>
                     </a>
                     {% endfor %}
