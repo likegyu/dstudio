@@ -19,12 +19,11 @@
     <div class="contentbox">
         <div class="content">
         <div class="wrap-post">
-            {% if post.artist %}
+            {% if page.artist %}
                 {{ content }}
             {% else %}
             <article class="artists">
-                {% assign artist = site.data.artists %}
-                {% for artist in site.artists %}
+                {% for artist in site.data.artists %}
                     <a href="https://dstudio.kr/artists/{{ artist }}" rel="tag">{{ artist.name }}</a>
                 {% endfor %}
             </article>
