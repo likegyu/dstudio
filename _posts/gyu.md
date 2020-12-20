@@ -1,4 +1,5 @@
 ---
+layout: dstudio
 artist: gyu
 ---
 <article class="work">

@@ -25,7 +25,7 @@
             <article class="artists">
                 {% assign artist = site.data.artists %}
                 {% for artist in site.artists %}
-                    <a href="https://dstudio.kr/{{ artist }}" rel="tag">{{ artist }}</a>
+                    <a href="https://dstudio.kr/{{ artist }}" rel="tag">{{ artist.name }}</a>
                 {% endfor %}
             </article>
             {% endif %}
