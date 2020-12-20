@@ -19,12 +19,12 @@ img{
 .contentbox {
     height: 90%;
     max-width: 100%;
-    text-align:center;
-    overflow-y: scroll;
+    text-align: center;
+    overflow: hidden;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.contentbox::-webkit-scrollbar{
+.work::-webkit-scrollbar{
     display: none;
 }
 .content {
@@ -39,8 +39,6 @@ img{
 
 .wrap-post{
     height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
 }
 .info{
     float: left;
@@ -51,6 +49,7 @@ img{
     height: 100%;
     float: right;
     width: 70%;
+    overflow-y: scroll;
 }
 .artists{
     width: 100%;

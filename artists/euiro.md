@@ -1,9 +1,7 @@
 ---
 layout: artists
 artist: euiro
+info: 사진해요
 ---
 <article class="work">
-</article>
-<article class="info">
-사람
 </article>

@@ -1,6 +1,7 @@
 ---
 layout: artists
 artist: gyu
+info: 사진찍습니다
 ---
 <article class="work">
         <a href="/artists/gyu/waves">

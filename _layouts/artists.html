@@ -27,8 +27,7 @@
             {% if page.artist %}
                 {{ content }}
                 <article class="info">
-                    {% assign art = site.data.artists[page.artist] %}
-                    <p>{{ art.info }}</p>
+                    <p>{{ page.info }}</p>
                 </article>
             {% else %}
                 <article class="artists">
