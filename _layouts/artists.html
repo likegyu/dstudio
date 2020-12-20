@@ -26,6 +26,9 @@
         <div class="wrap-post">
             {% if page.artist %}
                 {{ content }}
+                <article class="info">
+                    {{ artist.info }}
+                </article>
             {% else %}
                 <article class="artists">
                     {% for artist in site.data.artists %}
