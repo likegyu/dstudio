@@ -4,12 +4,12 @@ artist: gyu
 ---
 <article class="work">
         <a href="/artists/gyu/waves">
-        Waves
+        Waves<br>
         </a>
         <a href="/artists/gyu/plant">
-        Plant
+        Plant<br>
         </a>
         <a href="/artists/gyu/emptymind">
-        Empty Mind
+        Empty Mind<br>
         </a>
 </article>
