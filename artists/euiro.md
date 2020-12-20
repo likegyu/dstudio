@@ -1,5 +1,6 @@
 ---
 layout: artists
+artist: euiro
 ---
 <article class="work">
 </article>
