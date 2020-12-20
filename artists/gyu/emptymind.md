@@ -8,5 +8,4 @@ artist: gyu
 <img src="/assets/images/artists/gyu/emptymind/3.jpg">
 <img src="/assets/images/artists/gyu/emptymind/4.jpg">
 <img src="/assets/images/artists/gyu/emptymind/5.jpg">
-<img src="/assets/images/artists/gyu/emptymind/6.jpg">
 </article>
