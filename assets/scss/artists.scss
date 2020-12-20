@@ -8,8 +8,8 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
 img{
-    width: auto;
-    height: 438px;
+    max-width: 49%;
+    max-height: 99%;
 }
 .logo{
     text-align: center;
@@ -28,6 +28,7 @@ img{
     display: none;
 }
 .content {
+    height: 100%;
     width: 80%;
     min-height: 400px;
     max-width: 1200px;
@@ -37,6 +38,7 @@ img{
 }
 
 .wrap-post{
+    height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -46,6 +48,7 @@ img{
     position: absolute;
 }
 .work{
+    height: 100%;
     float: right;
     width: 70%;
 }
