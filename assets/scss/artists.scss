@@ -74,6 +74,10 @@ h3{
 .artist-icon-wrap{
     display: block;
 }
+.artist-icon i{
+    font-size: 21px;
+    margin-right: 8px;
+}
 @media (max-width: 768px) {
     .content {
         width: 96%;
