@@ -1,6 +1,7 @@
 ---
 layout: artists
 artist: gyu
+infoname: Waves
 info: 강릉 경포대 2019
 ---
 <article class="work">

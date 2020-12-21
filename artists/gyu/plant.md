@@ -1,6 +1,7 @@
 ---
 layout: artists
 artist: gyu
+infoname: Plant
 info: 2020
 ---
 <article class="work">

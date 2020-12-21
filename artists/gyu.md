@@ -1,7 +1,7 @@
 ---
 layout: artists
 artist: gyu
-artistname: 최성규
+infoname: 최성규
 info: 사진찍습니다
 email: mailto:pptn2@kakao.com
 homepage: https://likegyu.com

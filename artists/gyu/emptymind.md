@@ -1,6 +1,7 @@
 ---
 layout: artists
 artist: gyu
+infoname: Empty Mind
 info: << Empty >>
 ---
 <article class="work">
