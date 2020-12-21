@@ -28,16 +28,17 @@
             {% if page.artist %}
                 {{ content }}
                 <article class="info">
+                    <p>{{ page.name }}</p>
                     {% if artist %}
-                    <div class="writer-icon-wrap">
+                    <div class="artist-icon-wrap">
                     {% if homepage %}
-                    <a href="{{ homepage }}" class="writer-icon" rel="author"><i class="fas fa-home"></i></a>
+                    <a href="{{ homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
                     {% endif %}
                     {% if instagram %}
-                    <a href="{{ instagram }}" class="writer-icon" rel="author"><i class="fab fa-instagram"></i></a>
+                    <a href="{{ instagram }}" class="artist-icon" rel="author"><i class="fab fa-instagram"></i></a>
                     {% endif %}
                     {% if email %}
-                    <a href="{{ email }}" class="writer-icon" rel="author"><i class="fas fa-envelope"></i></a>
+                    <a href="{{ email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
                     {% endif %}
                     </div>
                     {% endif %}

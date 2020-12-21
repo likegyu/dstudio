@@ -71,6 +71,17 @@ a:hover{
 h3{
     text-align: center;
 }
+.artist-icon-wrap{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 7px;
+}
+.artist-icon i{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 3px;
+    color: #f9bc00;
+}
 @media (max-width: 768px) {
     .content {
         width: 96%;
