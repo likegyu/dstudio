@@ -4,13 +4,15 @@ artist: gyu
 info: 사진찍습니다
 ---
 <article class="work">
+<ul>
         <a href="/artists/gyu/waves">
-        Waves<br>
+        <li>Waves</li>
         </a>
         <a href="/artists/gyu/plant">
-        Plant<br>
+        <li>Plant</li>
         </a>
         <a href="/artists/gyu/emptymind">
-        Empty Mind<br>
+        <li>Empty Mind</li>
         </a>
+</ul>
 </article>
