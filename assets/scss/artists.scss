@@ -47,6 +47,7 @@ img{
 }
 ul{
     list-style: none;
+    padding: 0;
 }
 .work{
     height: 100%;
@@ -56,6 +57,8 @@ ul{
 }
 .artists{
     width: 100%;
+}
+.artist{
     display: inline-block;
 }
 a{
