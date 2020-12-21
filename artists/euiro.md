@@ -1,7 +1,11 @@
 ---
 layout: artists
 artist: euiro
-info: 사진해요
+artistname: 김의로
+info: 
+email: 
+homepage: 
+instagram: 
 ---
 <article class="work">
 </article>

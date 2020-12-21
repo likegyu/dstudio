@@ -28,20 +28,18 @@
             {% if page.artist %}
                 {{ content }}
                 <article class="info">
-                    <p>{{ page.name }}</p>
-                    {% if artist %}
+                    <p>{{ page.artistname }}</p>
                     <div class="artist-icon-wrap">
-                    {% if homepage %}
-                    <a href="{{ homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
+                    {% if page.homepage %}
+                    <a href="{{ page.homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
                     {% endif %}
-                    {% if instagram %}
-                    <a href="{{ instagram }}" class="artist-icon" rel="author"><i class="fab fa-instagram"></i></a>
+                    {% if page.instagram %}
+                    <a href="{{ page.instagram }}" class="artist-icon" rel="author"><i class="fab fa-instagram"></i></a>
                     {% endif %}
-                    {% if email %}
-                    <a href="{{ email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
+                    {% if page.email %}
+                    <a href="{{ page.email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
                     {% endif %}
                     </div>
-                    {% endif %}
                     <p>{{ page.info }}</p>
                 </article>
             {% else %}

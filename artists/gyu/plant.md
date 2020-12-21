@@ -1,6 +1,7 @@
 ---
 layout: artists
 artist: gyu
+info: .2020
 ---
 <article class="work">
 <img src="/assets/images/artists/gyu/plant/1.jpg">

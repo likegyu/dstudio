@@ -1,6 +1,7 @@
 ---
 layout: artists
 artist: gyu
+info: << Empty >>
 ---
 <article class="work">
 <img src="/assets/images/artists/gyu/emptymind/1.jpg">
