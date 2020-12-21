@@ -28,7 +28,6 @@
             {% if page.artist %}
                 {{ content }}
                 <article class="info">
-                    <p>{{ page.artistname }}</p>
                     <div class="artist-icon-wrap">
                     {% if page.homepage %}
                     <a href="{{ page.homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
@@ -40,6 +39,7 @@
                     <a href="{{ page.email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
                     {% endif %}
                     </div>
+                    <p>{{ page.artistname }}</p>
                     <p>{{ page.info }}</p>
                 </article>
             {% else %}
