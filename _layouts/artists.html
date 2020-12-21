@@ -11,6 +11,7 @@
     <meta name="color-scheme" content="only light">
     <title>D studio</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/004.css">
+    <script src="https://kit.fontawesome.com/5d44e9c537.js" crossorigin="anonymous"></script>
     {% include favicon.html %}
     {% include og.html %}
 </head>
@@ -27,6 +28,19 @@
             {% if page.artist %}
                 {{ content }}
                 <article class="info">
+                    {% if artist %}
+                    <div class="writer-icon-wrap">
+                    {% if homepage %}
+                    <a href="{{ homepage }}" class="writer-icon" rel="author"><i class="fas fa-home"></i></a>
+                    {% endif %}
+                    {% if instagram %}
+                    <a href="{{ instagram }}" class="writer-icon" rel="author"><i class="fab fa-instagram"></i></a>
+                    {% endif %}
+                    {% if email %}
+                    <a href="{{ email }}" class="writer-icon" rel="author"><i class="fas fa-envelope"></i></a>
+                    {% endif %}
+                    </div>
+                    {% endif %}
                     <p>{{ page.info }}</p>
                 </article>
             {% else %}

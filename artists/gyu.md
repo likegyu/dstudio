@@ -2,6 +2,9 @@
 layout: artists
 artist: gyu
 info: 사진찍습니다
+email: mailto:pptn2@kakao.com
+homepage: https://likegyu.com
+instagram: https://instagram.com/willnevergrowold
 ---
 <article class="work">
 <ul>
