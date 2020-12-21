@@ -31,12 +31,14 @@
                 </article>
             {% else %}
                 <article class="artists">
+                <ul>
                     {% for artist in site.data.artists %}
                     <a href="https://dstudio.kr/artists/{{ artist.adressname }}">
-                        <p class="artist">{{ artist.name }} 
-                        </p>
+                        <li class="artist">{{ artist.name }} 
+                        </li>
                     </a>
                     {% endfor %}
+                </ul>
                 </article>
             {% endif %}
         </div>
