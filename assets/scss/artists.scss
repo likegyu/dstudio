@@ -75,8 +75,14 @@ h3{
     display: block;
 }
 .artist-icon i{
-    font-size: 21px;
+    font-size: 14px;
     margin-right: 8px;
+}
+p{
+    font-size: 14px;
+}
+p.infoname{
+    font-size: 18px;
 }
 @media (max-width: 768px) {
     .content {
