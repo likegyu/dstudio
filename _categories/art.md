@@ -1,4 +1,0 @@
----
-name: art
-title: art
----

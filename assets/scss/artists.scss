@@ -105,6 +105,12 @@ p.infoname{
         max-height: 99%;
     }
 }
+@media (prefers-color-scheme: dark) {
+    .themed {
+      background: black;
+      color: white;
+    }
+  }
 .footer{
     background-color: #f5f5f5;
     padding-bottom: 30px;
