@@ -15,9 +15,12 @@ img{
     max-height: 99%;
 }
 .logo{
+    position: absolute;
+    display: inline-block;
     text-align: center;
-    margin-top: 20px;
+    top: 20px;
     height: 48px;
+    width: 100%;
 }
 .contentbox {
     height: 90%;
@@ -25,7 +28,7 @@ img{
     text-align: center;
     overflow: hidden;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 78px;
 }
 .work::-webkit-scrollbar{
     display: none;
@@ -90,9 +93,6 @@ p.infoname{
     .content {
         width: 96%;
     }
-    .logo{
-        margin-top: 10px;
-    }
     .contentbox {
         height: 80%;
     }
@@ -110,8 +110,9 @@ p.infoname{
 
 .footer{
     position: absolute;
+    width: 100%;
     left: 0;
-    bottom: 0;
+    bottom: 15px;
     text-align: center;
     font-size: small;
 }
