@@ -9,14 +9,8 @@ instagram: https://instagram.com/willnevergrowold
 ---
 <article class="work">
 <ul>
-        <a href="/artists/gyu/waves">
-        <li>Waves</li>
-        </a>
-        <a href="/artists/gyu/plant">
-        <li>Plant</li>
-        </a>
-        <a href="/artists/gyu/emptymind">
-        <li>Empty Mind</li>
+        <a href="/artists/gyu/homealone">
+        <li>Homme Alone</li>
         </a>
 </ul>
 </article>
