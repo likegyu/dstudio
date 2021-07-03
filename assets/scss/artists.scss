@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 html{
     background: #f5f5f5;
 }
@@ -5,7 +7,7 @@ body {
     overflow: hidden;
     height: 85vh;
     margin:0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-family: nanumgothic;
 }
 img{
     max-width: 49%;
@@ -110,7 +112,7 @@ p.infoname{
     padding-bottom: 30px;
     text-align: center;
     font-size: small;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-family: nanumgothic;
 }
 .footer p {
     margin: 0;
