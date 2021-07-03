@@ -13,7 +13,6 @@
     <script src="https://kit.fontawesome.com/5d44e9c537.js" crossorigin="anonymous"></script>
     {% include og.html %}
 </head>
-{% include intro.html %}
 <body id="body">
     </div>
     <div class="logo">
@@ -28,7 +27,7 @@
                 {{ content }}
                 <article class="info">
                     <p class="infoname">{{ page.infoname }}</p>
-                    <p>{{ page.info }}</p>
+                    <p class="p">{{ page.info }}</p>
                     <p class="artist-icon-wrap">
                     {% if page.homepage %}
                     <a href="{{ page.homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
