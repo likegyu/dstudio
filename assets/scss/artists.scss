@@ -12,8 +12,7 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 img{
-    max-width: 49%;
-    max-height: 99%;
+    max-width: 100%;
 }
 .logo{
     position: absolute;
@@ -102,10 +101,6 @@ p.infoname{
     }
     .info{
         width: 31%;
-    }
-    img{
-        max-width: 100%;
-        max-height: 99%;
     }
 }
 
