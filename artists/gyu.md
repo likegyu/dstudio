@@ -10,7 +10,7 @@ instagram: https://instagram.com/willnevergrowold
 <article class="work">
 <ul>
         <a href="/artists/gyu/homealone">
-        <li>Homme Alone</li>
+        <li>Home Alone</li>
         </a>
 </ul>
 </article>
