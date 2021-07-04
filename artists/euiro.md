@@ -2,10 +2,10 @@
 layout: artists
 artist: euiro
 infoname: 김의로
-info: 
-email: 
+info: 4jinhaeyo!
+email: mailto:borneuirod@gmail.com
 homepage: 
-instagram: 
+instagram: https://www.instagram.com/louloully/
 ---
 <article class="work">
 <ul>
