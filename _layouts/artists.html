@@ -30,7 +30,7 @@
         <div class="wrap-post">
             {% if page.artist %}
                 {{ content }}
-                <article class="info">
+                <aside class="info">
                     <p class="infoname">{{ page.infoname }}</p>
                     <p class="p">{{ page.info }}</p>
                     <p class="artist-icon-wrap">
@@ -44,9 +44,9 @@
                     <a href="{{ page.email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
                     {% endif %}
                     </p>
-                </article>
+                </aside>
             {% else %}
-                <article class="artists">
+            <nav class="artists">
                 <ul>
                     {% for artist in site.data.artists %}
                     <a href="https://dstudio.kr/artists/{{ artist.adressname }}">
@@ -55,7 +55,7 @@
                     </a>
                     {% endfor %}
                 </ul>
-                </article>
+            </nav>
             {% endif %}
         </div>
         </div>
