@@ -14,20 +14,35 @@
     <meta name="canonical" href="https://www.dstudio.kr">
     {% endif %}
     <link rel="stylesheet" type="text/css" href="/assets/css/001.css">
-    <script src="https://kit.fontawesome.com/5d44e9c537.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/69c07f8d36.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/questionbtn.js"></script>
     {% include og.html %}
     {% include favicon.html %}
 </head>
 <body id="body">
     </div>
-    <header class="logo">
-        <a href="https://dstudio.kr/" rel="logo">
+    <header>
+        <a href="/" rel="logo" class="logo">
         <img src="/assets/images/logo/logo.jpg" style="height: 48px; width: 48px;">
+        </a>
+        <a onclick="openQuestion()" id="questionbtn" class="questionbtn">
+            <i class="fa-regular fa-circle-question"></i>
+        </a>
+        <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeQuestion()">
+            <i class="fa-solid fa-circle-xmark"></i>
         </a>
     </header>
     <main class="contentbox">
         <div class="content">
         <div class="wrap-post">
+            <div id="infotext" class="infotext">
+                <p>"D studio"는 아마추어 예술가들의 작업물을 아카이빙합니다.<br>
+                    수집에는 나이, 성별, 분야, 주제 등을 가리지 않습니다.<br>
+                    예술을 하며 작업물을 남기고 공유하실 분들은 아래 이메일을 통해 연락해 주시기 바랍니다.<br><br>
+                    <a href="mailto:admin@dstudio.kr">admin@dstudio.kr</a>
+                </p>
+            </div>
+            <div id="contenthide" class="contenthide">
             {% if page.artist %}
                 {{ content }}
                 <aside class="info">
@@ -49,7 +64,7 @@
             <nav class="artists">
                 <ul>
                     {% for artist in site.data.artists %}
-                    <a href="https://dstudio.kr/artists/{{ artist.adressname }}">
+                    <a href="/artists/{{ artist.adressname }}">
                         <li class="artist">{{ artist.name }} 
                         </li>
                     </a>
@@ -57,6 +72,7 @@
                 </ul>
             </nav>
             {% endif %}
+            </div>
         </div>
         </div>
     </main>
