@@ -1,6 +1,6 @@
 ---
 layout: artists
-artist: info
+artist: you
 infoname: You
 info: >
         Please contact to e-mail.<br><br>

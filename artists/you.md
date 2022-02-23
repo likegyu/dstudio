@@ -1,6 +1,6 @@
 ---
 layout: artists
-artist: info
+artist: you
 infoname: You
 info: >
         Please contact to e-mail.<br><br>
@@ -11,7 +11,7 @@ instagram:
 ---
 <article class="work">
 <ul>
-        <a href="/artists/info/yourwork">
+        <a href="/artists/you/yourwork">
         <li>Your Work</li>
         </a>
 </ul>
