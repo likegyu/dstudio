@@ -2,7 +2,7 @@
 layout: artists
 artist: gyu
 infoname: Home Alone
-info: 정확한 이유도 모른 채 마음이 자극되는 상황이 있다. 그럴 때면 카메라를 들었다.
+info: 정확한 이유도 모른 채 감정이 자극되는 순간이 있다. 그럴 때면 카메라를 들었다.
 ---
 <article class="work">
 <!--<img src="/assets/images/artists/gyu/homealone/1.jpg">-->
