@@ -64,10 +64,9 @@
             <nav class="artists">
                 <ul>
                     {% for artist in site.data.artists %}
-                    <a href="/artists/{{ artist.adressname }}">
-                        <li class="artist">{{ artist.name }} 
+                        <li class="artist">
+                        <a href="/artists/{{ artist.adressname }}">{{ artist.name }} </a>
                         </li>
-                    </a>
                     {% endfor %}
                 </ul>
             </nav>
