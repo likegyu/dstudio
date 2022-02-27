@@ -81,6 +81,8 @@ header{
 .info{
     float: left;
     width: 28%;
+    height: 100%;
+    overflow-y: scroll;
 }
 ul{
     list-style: none;
