@@ -9,8 +9,11 @@ instagram: https://instagram.com/willnevergrowold
 ---
 <article class="work">
 <ul>
-        <a href="/artists/gyu/homealone">
-        <li>Home Alone</li>
-        </a>
+        
+        <li><a href="/artists/gyu/homealone">Home Alone
+        </a></li>
+        
+        <li><a href="/artists/gyu/plants">Plants</a></li>
+        
 </ul>
 </article>

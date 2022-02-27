@@ -90,9 +90,6 @@ ul{
     padding: 0;
     display: inline-block;
 }
-li{
-    display: inline;
-}
 .work{
     height: 100%;
     float: right;
@@ -104,6 +101,7 @@ li{
 }
 .artist{
     margin-right: 4px;
+    display: inline;
 }
 a{
     text-decoration: none;
