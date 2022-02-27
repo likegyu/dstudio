@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/001.css">
     <script src="https://kit.fontawesome.com/69c07f8d36.js" crossorigin="anonymous"></script>
     <script src="/assets/js/questionbtn.js"></script>
+    <script src="/assets/js/more.js"></script>
     {% include og.html %}
     {% include favicon.html %}
 </head>
@@ -47,7 +48,9 @@
                 {{ content }}
                 <aside class="info">
                     <p class="infoname">{{ page.infoname }}</p>
-                    <p class="p">{{ page.info }}</p>
+                    <p id="p" class="p">{{ page.info }}</p>
+                    <a href="javascript:void(0)" id="morebtn" class="morebtn" onclick="moreBtn()">
+                        <i class="fa-solid fa-caret-right"></i></a>
                     <p class="artist-icon-wrap">
                     {% if page.homepage %}
                     <a href="{{ page.homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
