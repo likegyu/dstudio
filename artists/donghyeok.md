@@ -9,8 +9,8 @@ instagram:
 ---
 <article class="work">
 <ul>
-        <a href="/artists/donghyeok/25800">
-        <li>25800</li>
-        </a>
+    <li>
+    <a href="/artists/donghyeok/25800">25800</a>
+    </li>
 </ul>
 </article>

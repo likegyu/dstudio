@@ -9,8 +9,8 @@ instagram: https://www.instagram.com/louloully/
 ---
 <article class="work">
 <ul>
-        <a href="/artists/euiro/stoneletter">
-        <li>Stone Letter</li>
-        </a>
+    <li>
+    <a href="/artists/euiro/stoneletter">Stone Letter</a>
+    </li>
 </ul>
 </article>
