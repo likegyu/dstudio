@@ -32,4 +32,4 @@ jobs:
     - name: "Deploy to AWS S3"
       run: aws s3 sync ./_site/ s3://dstudiokr --acl public-read --delete --cache-control max-age=604800
     - name: "Create AWS Cloudfront Invalidation"
-      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+      run: aws cloudfront create-invalidation --distribution-id E39RZMIAXZ80 --paths "/*"
