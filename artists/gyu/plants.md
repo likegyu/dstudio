@@ -2,7 +2,7 @@
 layout: artists
 artist: gyu
 infoname: Plants
-info: Think about Plants's life
+info: Think about Plant's life
 ---
 <article class="work">
 <img src="/assets/images/artists/gyu/plants/1.jpg">
