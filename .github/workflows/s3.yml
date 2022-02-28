@@ -30,6 +30,6 @@ jobs:
       env:
         JEKYLL_ENV: production
     - name: "Deploy to AWS S3"
-      run: aws s3 sync ./_site/ s3://dstudiokr --acl public-read --delete --cache-control max-age=604800
+      run: aws s3 sync ./_site/ s3://dstudio.kr --acl public-read --delete --cache-control max-age=604800
     - name: "Create AWS Cloudfront Invalidation"
       run: aws cloudfront create-invalidation --distribution-id E39RZMIAXZ80 --paths "/*"
