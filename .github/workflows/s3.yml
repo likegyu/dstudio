@@ -7,5 +7,5 @@ on:
     env: 
       AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
       AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
-      S3_BUCKET_NAME: "doc_bucket"
-      S3_BUCKET_PATH: "engineering/runbooks"    
+      S3_BUCKET_NAME: "dstudiokr"
+      S3_BUCKET_PATH: "dstudiokr"    
