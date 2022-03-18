@@ -51,13 +51,13 @@
                         <i class="fa-solid fa-caret-right"></i></a>
                     <p class="artist-icon-wrap">
                     {% if page.homepage %}
-                    <a href="{{ page.homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
+                    <a aria-label="personalwebsite" href="{{ page.homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
                     {% endif %}
                     {% if page.instagram %}
-                    <a href="{{ page.instagram }}" class="artist-icon" rel="author"><i class="fab fa-instagram"></i></a>
+                    <a aria-label="instagram" href="{{ page.instagram }}" class="artist-icon" rel="author"><i class="fab fa-instagram"></i></a>
                     {% endif %}
                     {% if page.email %}
-                    <a href="{{ page.email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
+                    <a aria-label="email" href="{{ page.email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
                     {% endif %}
                     </p>
                 </aside>
