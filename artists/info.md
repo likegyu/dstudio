@@ -11,8 +11,8 @@ instagram:
 ---
 <article class="work">
 <ul>
-        <a href="/artists/info/yourwork">
-        <li>Your Work</li>
-        </a>
+        <li>
+        <a href="/artists/info/yourwork">Your Work</a>
+        </li>
 </ul>
 </article>
