@@ -47,9 +47,9 @@
             <section id="contenthide" class="contenthide">
             {% if page.artist %}
                 {{ content }}
-                <aside class="info">
-                    <h4 class="infoname">{{ page.infoname }}</h4>
-                    <article id="p" class="p">{{ page.info }}</article>
+                <article class="info">
+                    <h2 class="infoname">{{ page.infoname }}</h2>
+                    <p id="p" class="p">{{ page.info }}</p>
                     <button aria-label="더보기" id="morebtn" class="morebtn" onclick="moreBtn()">
                         <i class="fa-solid fa-caret-right"></i></button>
                     <p class="artist-icon-wrap">
@@ -63,7 +63,7 @@
                     <a aria-label="이메일" href="{{ page.email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
                     {% endif %}
                     </p>
-                </aside>
+                </article>
             {% else %}
             <nav class="artists">
                 <ul>
