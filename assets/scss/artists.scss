@@ -160,6 +160,7 @@ h2.infoname{
     float: right;
     text-align: center;
     width: 25px;
+    color: black;
 }
 @media (max-width: 768px) {
     .content {
@@ -204,6 +205,9 @@ h2.infoname{
     }
     .infotext a{
         color: black;
+    }
+    .morebtn{
+        color: white;
     }
     .questionbtn{
         color: white;
