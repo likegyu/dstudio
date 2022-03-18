@@ -17,6 +17,14 @@ img{
 header{
     height: 78px;
 }
+button{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+button:hover{
+    cursor: pointer;
+}
 .logo{
     position: absolute;
     display: inline-block;
