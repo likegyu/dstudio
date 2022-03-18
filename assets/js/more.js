@@ -12,7 +12,7 @@ function moreBtn() {
     p.style.position = 'absolute';
     p.style.height = '340px';
     morebtn.style.position = 'absolute';
-    morebtn.style.top = '375px';
+    morebtn.style.top = '380px';
     morebtn.style.left = 'calc(100% - 38px)';
     morebtn.style.transform = 'rotate(180deg)';
     rotation ++
