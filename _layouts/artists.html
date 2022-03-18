@@ -24,10 +24,10 @@
         <a href="/" rel="index" class="logo">
         <img src="/assets/images/logo/logo.jpg" alt="로고" style="height: 48px; width: 48px;">
         </a>
-        <a aria-label="info" href="javascript:void(0)" onclick="openQuestion()" id="questionbtn" class="questionbtn">
+        <a aria-label="info" href="#" onclick="openQuestion()" id="questionbtn" class="questionbtn">
             <i class="fa-regular fa-circle-question"></i>
         </a>
-        <a aria-label="close" href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeQuestion()">
+        <a aria-label="close" href="#" id="closebtn" class="closebtn" onclick="closeQuestion()">
             <i class="fa-solid fa-circle-xmark"></i>
         </a>
     </header>
@@ -47,7 +47,7 @@
                 <aside class="info">
                     <p class="infoname">{{ page.infoname }}</p>
                     <p id="p" class="p">{{ page.info }}</p>
-                    <a aria-label="more" href="javascript:void(0)" id="morebtn" class="morebtn" onclick="moreBtn()">
+                    <a aria-label="more" href="#" id="morebtn" class="morebtn" onclick="moreBtn()">
                         <i class="fa-solid fa-caret-right"></i></a>
                     <p class="artist-icon-wrap">
                     {% if page.homepage %}
