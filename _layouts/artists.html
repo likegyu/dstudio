@@ -35,30 +35,30 @@
     <main class="contentbox">
         <div class="content">
         <div class="wrap-post">
-            <div id="infotext" class="infotext">
+            <article id="infotext" class="infotext">
                 <p>"D studio"는 아마추어 예술가들의 작업물을 아카이빙합니다.<br>
                     수집에는 나이, 성별, 분야, 주제 등을 가리지 않습니다.<br><br>
                     예술을 하며 작업물을 남기고 공유하실 분들은 아래 이메일을 통해 연락해 주시기 바랍니다.<br><br>
-                    <a href="mailto:admin@dstudio.kr">admin@dstudio.kr</a>
+                    <address><a href="mailto:admin@dstudio.kr">admin@dstudio.kr</a></address>
                 </p>
-            </div>
+            </article>
             <div id="contenthide" class="contenthide">
             {% if page.artist %}
                 {{ content }}
                 <aside class="info">
-                    <p class="infoname">{{ page.infoname }}</p>
-                    <p id="p" class="p">{{ page.info }}</p>
-                    <a aria-label="more" href="#" id="morebtn" class="morebtn" onclick="moreBtn()">
-                        <i class="fa-solid fa-caret-right"></i></a>
+                    <h4 class="infoname">{{ page.infoname }}</h4>
+                    <article id="p" class="p">{{ page.info }}</article>
+                    <button aria-label="더보기" id="morebtn" class="morebtn" onclick="moreBtn()">
+                        <i class="fa-solid fa-caret-right"></i></button>
                     <p class="artist-icon-wrap">
                     {% if page.homepage %}
-                    <a aria-label="personalwebsite" href="{{ page.homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
+                    <a aria-label="개인홈페이지" href="{{ page.homepage }}" class="artist-icon" rel="author"><i class="fas fa-home"></i></a>
                     {% endif %}
                     {% if page.instagram %}
-                    <a aria-label="instagram" href="{{ page.instagram }}" class="artist-icon" rel="author"><i class="fab fa-instagram"></i></a>
+                    <a aria-label="인스타그램" href="{{ page.instagram }}" class="artist-icon" rel="author"><i class="fab fa-instagram"></i></a>
                     {% endif %}
                     {% if page.email %}
-                    <a aria-label="email" href="{{ page.email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
+                    <a aria-label="이메일" href="{{ page.email }}" class="artist-icon" rel="author"><i class="fas fa-envelope"></i></a>
                     {% endif %}
                     </p>
                 </aside>

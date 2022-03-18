@@ -119,9 +119,6 @@ a:hover{
     cursor: pointer;
     color: rgb(170, 170, 170);
 }
-h3{
-    text-align: center;
-}
 .artist-icon-wrap{
     display: block;
 }
@@ -129,9 +126,15 @@ h3{
     font-size: 18px;
     margin-right: 8px;
 }
-p.infoname{
+h4.infoname{
     font-size: 16px;
     margin-bottom: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
 }
 .p {
     -webkit-line-clamp: 16;
@@ -148,7 +151,7 @@ p.infoname{
     display: none;
     position: relative;
     left: -2px;
-    top: -23px;
+    top: -20px;
     float: right;
     text-align: center;
     width: 25px;
