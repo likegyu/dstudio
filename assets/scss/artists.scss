@@ -185,6 +185,11 @@ h2.infoname{
 }
 .footer p {
     margin: 0;
+    color: #323232;
+}
+.footer p > a {
+    color: #525252;
+    text-decoration: none;
 }
 @media (prefers-color-scheme: dark) {
     html{
@@ -218,5 +223,11 @@ h2.infoname{
     }
     a:hover{
         color: rgb(175, 175, 175);
+    }
+    .footer p {
+        color: rgb(226, 226, 226);
+    }
+    .footer p > a {
+        color: white;
     }
   }
