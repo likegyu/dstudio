@@ -1,11 +1,5 @@
-# User config
-author: "D studio"
-description: "D studio"
-email: "admin.dstudio.kr"
-instagram: "https://instagram.com/dstudio.kr"
-
 # Site config
-baseurl:
+url: https://dstudio.kr
 highlighter: rouge
 permalink: pretty
 sass:
