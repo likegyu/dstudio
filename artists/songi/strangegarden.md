@@ -25,5 +25,11 @@ info: >
     <li>
     <a href="/artists/songi/strangegarden/year">한해살이</a>
     </li>
+    <li>
+    <a href="/artists/songi/strangegarden/hong">천일홍</a>
+    </li>
+     <li>
+    <a href="/artists/songi/strangegarden/silver">은방울꽃</a>
+    </li>
 </ul>
 </article>
