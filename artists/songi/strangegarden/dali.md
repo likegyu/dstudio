@@ -1,7 +1,7 @@
 ---
 layout: artists
 artist: songi
-infoname: 델피니움
+infoname: 다알리아
 info: 
 ---
 <article class="work">
