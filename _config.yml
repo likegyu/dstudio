@@ -4,7 +4,6 @@ highlighter: rouge
 permalink: pretty
 sass:
   sass_dir: assets/scss
-  style: compressed
 
 collections:
   categories:
