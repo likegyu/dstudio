@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-cream-white: #FFFDF9;
+  --color-warm-beige: #FBF7F0;
+  --color-soft-linen: #FDF9F4;
+  --color-primary: #9A8B74;
+  --color-primary-light: #E8DFD0;
+  --color-primary-dark: #5C5248;
+  --color-primary-hover: #87795F;
+  --color-secondary: #E0D6C6;
+  --color-secondary-light: #EEE8DC;
+  --color-secondary-dark: #B0A494;
+  --color-accent: #9A8B74;
+  --color-accent-soft: #F0E8DA;
+  --color-text-primary: #2E2A25;
+  --color-text-secondary: #6E6560;
+  --color-text-muted: #8A837A;
+  --color-text-on-dark: #FDF9F4;
+  --color-charcoal: #3A3530;
+
+  --font-nanum-round: "Nanum Square Round", "NanumSquareRound", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-zilla-slab: "Zilla Slab", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream-white);
+  color: var(--color-text-primary);
+  font-family: var(--font-nanum-round);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typing cursor animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Scroll indicator bounce */
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+/* Underline expand animation */
+@keyframes underline-expand {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
