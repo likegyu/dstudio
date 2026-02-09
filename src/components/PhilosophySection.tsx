@@ -27,7 +27,7 @@ export default function PhilosophySection() {
 
   return (
     <section
-      id="philosophy"
+      id="about"
       className="bg-primary-dark px-5 py-20 md:px-10 md:py-[120px]"
     >
       <div ref={ref} className="mx-auto max-w-[800px] text-center">
@@ -35,16 +35,48 @@ export default function PhilosophySection() {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="mb-12 inline-block text-xs font-semibold uppercase tracking-[0.08em] text-accent-soft"
+          className="mb-6 inline-block text-xs font-semibold uppercase tracking-[0.08em] text-accent-soft"
         >
-          PHILOSOPHY
+          ABOUT
         </motion.span>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={isVisible ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.15, ease: "easeOut" }}
+          className="mb-4 text-lg leading-[1.7] text-text-on-dark md:text-xl"
+        >
+          dstudio는 일상을 기록하는 경험을 더 따뜻하고 의미 있게
+          <br />
+          만들어가는 앱 개발 스튜디오예요.
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={isVisible ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.25, ease: "easeOut" }}
+          className="mb-12 text-base leading-[1.7] text-text-on-dark/70"
+        >
+          화려한 기능보다 매일 꺼내보고 싶은 편안함을 추구해요.
+          <br />
+          사람들의 하루가 작은 점이 되어 모이면,
+          <br />
+          그것이 하나의 아름다운 그림이 된다고 믿어요.
+        </motion.p>
+
+        {/* Divider */}
+        <motion.div
+          initial={{ opacity: 0, scaleX: 0 }}
+          animate={isVisible ? { opacity: 1, scaleX: 1 } : {}}
+          transition={{ duration: 0.6, delay: 0.35 }}
+          className="mx-auto mb-12 h-px w-12 bg-accent-soft/30"
+        />
 
         <motion.blockquote
           initial={{ opacity: 0 }}
           animate={isVisible ? { opacity: 1 } : {}}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-8 text-2xl font-bold leading-[1.3] tracking-[-0.02em] text-text-on-dark md:text-[32px]"
+          transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+          className="mb-12 text-2xl font-bold leading-[1.3] tracking-[-0.02em] text-text-on-dark md:text-[32px]"
         >
           완벽하지 않아도 괜찮아요.
           <br />
@@ -52,29 +84,6 @@ export default function PhilosophySection() {
           <br />
           오늘을 남기는 일이니까요.
         </motion.blockquote>
-
-        {/* Divider */}
-        <motion.div
-          initial={{ opacity: 0, scaleX: 0 }}
-          animate={isVisible ? { opacity: 1, scaleX: 1 } : {}}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="mx-auto mb-8 h-px w-12 bg-accent-soft/30"
-        />
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={isVisible ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5, delay: 0.4, ease: "easeOut" }}
-          className="mb-12 text-lg leading-[1.7] text-text-on-dark md:text-xl"
-        >
-          우리는 기록이 부담이 되지 않기를 바랍니다.
-          <br />
-          거창하지 않아도, 매일이 아니어도 괜찮아요.
-          <br />
-          당신이 편안하게 오늘을 남길 수 있도록,
-          <br />
-          dstudio는 가장 쉬운 방법을 고민합니다.
-        </motion.p>
 
         {/* Value keywords */}
         <div
