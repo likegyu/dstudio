@@ -2,26 +2,9 @@
 
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import type { Dictionary } from "@/i18n/getDictionary";
 
-const VALUES = [
-  {
-    number: "01",
-    keyword: "편안함",
-    description: "부담 없이 시작할 수 있는 기록",
-  },
-  {
-    number: "02",
-    keyword: "꾸준함",
-    description: "작은 습관이 만드는 큰 변화",
-  },
-  {
-    number: "03",
-    keyword: "함께",
-    description: "혼자가 아닌 함께 채우는 매일",
-  },
-];
-
-export default function PhilosophySection() {
+export default function PhilosophySection({ dict }: { dict: Dictionary }) {
   const { ref, isVisible } = useScrollAnimation();
   const { ref: valuesRef, isVisible: valuesVisible } = useScrollAnimation(0.2);
 
@@ -37,7 +20,7 @@ export default function PhilosophySection() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="mb-6 inline-block text-xs font-semibold uppercase tracking-[0.08em] text-accent-soft"
         >
-          ABOUT
+          {dict.philosophy.sectionLabel}
         </motion.span>
 
         <motion.p
@@ -46,9 +29,9 @@ export default function PhilosophySection() {
           transition={{ duration: 0.5, delay: 0.15, ease: "easeOut" }}
           className="mb-4 text-lg leading-[1.7] text-text-on-dark md:text-xl"
         >
-          dstudio는 일상을 기록하는 경험을 더 따뜻하고 의미 있게
-          <br />
-          만들어가는 앱 개발 스튜디오예요.
+          {dict.philosophy.intro.split("\n").map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
         </motion.p>
 
         <motion.p
@@ -57,11 +40,9 @@ export default function PhilosophySection() {
           transition={{ duration: 0.5, delay: 0.25, ease: "easeOut" }}
           className="mb-12 text-base leading-[1.7] text-text-on-dark/70"
         >
-          화려한 기능보다 매일 꺼내보고 싶은 편안함을 추구해요.
-          <br />
-          사람들의 하루가 작은 점이 되어 모이면,
-          <br />
-          그것이 하나의 아름다운 그림이 된다고 믿어요.
+          {dict.philosophy.body.split("\n").map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
         </motion.p>
 
         {/* Divider */}
@@ -78,11 +59,9 @@ export default function PhilosophySection() {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="mb-12 text-2xl font-bold leading-[1.3] tracking-[-0.02em] text-text-on-dark md:text-[32px]"
         >
-          완벽하지 않아도 괜찮아요.
-          <br />
-          기록은 있는 그대로의
-          <br />
-          오늘을 남기는 일이니까요.
+          {dict.philosophy.quote.split("\n").map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
         </motion.blockquote>
 
         {/* Value keywords */}
@@ -90,7 +69,7 @@ export default function PhilosophySection() {
           ref={valuesRef}
           className="grid grid-cols-1 gap-8 text-left md:grid-cols-3"
         >
-          {VALUES.map((value, i) => (
+          {dict.philosophy.values.map((value, i) => (
             <motion.div
               key={value.number}
               initial={{ opacity: 0, x: -20 }}

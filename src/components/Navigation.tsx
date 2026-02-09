@@ -1,13 +1,30 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import type { Dictionary } from "@/i18n/getDictionary";
+import type { Locale } from "@/i18n/config";
+import { locales } from "@/i18n/config";
 
-const NAV_ITEMS = [
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
-];
+const NAV_HREFS = ["#about", "#contact"] as const;
 
-export default function Navigation() {
+export default function Navigation({
+  dict,
+  locale,
+}: {
+  dict: Dictionary;
+  locale: Locale;
+}) {
+  const pathname = usePathname();
+  const [langOpen, setLangOpen] = useState(false);
+
+  const navItems = [
+    { label: dict.nav.about, href: "#about" },
+    { label: dict.nav.contact, href: "#contact" },
+  ];
+
+  const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}/, "") || "/";
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
@@ -18,8 +35,8 @@ export default function Navigation() {
     };
 
     const handleSectionObserver = () => {
-      const sections = NAV_ITEMS.map((item) =>
-        document.querySelector(item.href)
+      const sections = NAV_HREFS.map((href) =>
+        document.querySelector(href)
       ).filter(Boolean) as Element[];
 
       const observer = new IntersectionObserver(
@@ -76,7 +93,7 @@ export default function Navigation() {
 
         {/* Desktop nav */}
         <ul className="hidden items-center gap-8 md:flex">
-          {NAV_ITEMS.map((item) => (
+          {navItems.map((item) => (
             <li key={item.href}>
               <button
                 onClick={() => handleNavClick(item.href)}
@@ -95,13 +112,41 @@ export default function Navigation() {
               </button>
             </li>
           ))}
+          {/* Language switcher */}
+          <li className="relative">
+            <button
+              onClick={() => setLangOpen(!langOpen)}
+              className="text-[15px] font-medium text-text-secondary transition-colors duration-250 hover:text-primary"
+            >
+              {locale.toUpperCase()}
+            </button>
+            {langOpen && (
+              <ul className="absolute right-0 top-8 min-w-[80px] rounded-md bg-cream-white shadow-[0_2px_12px_rgba(61,52,41,0.1)]">
+                {locales.map((l) => (
+                  <li key={l}>
+                    <Link
+                      href={`/${l}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`}
+                      onClick={() => setLangOpen(false)}
+                      className={`block px-4 py-2 text-sm transition-colors duration-150 ${
+                        l === locale
+                          ? "font-semibold text-primary"
+                          : "text-text-secondary hover:text-primary"
+                      }`}
+                    >
+                      {l.toUpperCase()}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
         </ul>
 
         {/* Mobile hamburger */}
         <button
           className="flex flex-col gap-[5px] md:hidden"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label={isMenuOpen ? "메뉴 닫기" : "메뉴 열기"}
+          aria-label={isMenuOpen ? dict.nav.menuClose : dict.nav.menuOpen}
         >
           <span
             className={`block h-[2px] w-5 bg-text-primary transition-all duration-300 ${
@@ -130,7 +175,7 @@ export default function Navigation() {
         }`}
       >
         <ul className="flex h-full flex-col items-center justify-center gap-10">
-          {NAV_ITEMS.map((item) => (
+          {navItems.map((item) => (
             <li key={item.href}>
               <button
                 onClick={() => handleNavClick(item.href)}
@@ -144,6 +189,22 @@ export default function Navigation() {
               </button>
             </li>
           ))}
+          {/* Mobile language links */}
+          <li className="flex gap-4">
+            {locales.map((l) => (
+              <Link
+                key={l}
+                href={`/${l}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`}
+                className={`text-sm font-medium transition-colors duration-150 ${
+                  l === locale
+                    ? "text-primary"
+                    : "text-text-secondary hover:text-primary"
+                }`}
+              >
+                {l.toUpperCase()}
+              </Link>
+            ))}
+          </li>
         </ul>
       </div>
     </header>

@@ -1,19 +1,6 @@
-import Navigation from "@/components/Navigation";
-import HeroSection from "@/components/HeroSection";
-import PhilosophySection from "@/components/PhilosophySection";
-import ContactSection from "@/components/ContactSection";
-import Footer from "@/components/Footer";
+import { redirect } from "next/navigation";
+import { defaultLocale } from "@/i18n/config";
 
-export default function Home() {
-  return (
-    <>
-      <Navigation />
-      <main>
-        <HeroSection />
-        <PhilosophySection />
-        <ContactSection />
-      </main>
-      <Footer />
-    </>
-  );
+export default function RootPage() {
+  redirect(`/${defaultLocale}`);
 }

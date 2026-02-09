@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "dstudio - Designing everyday records",
+    "description": "dstudio is an app development studio that makes the experience of recording daily life warmer and more meaningful. We create the life-logging app to dot."
+  },
+  "nav": {
+    "about": "About",
+    "contact": "Contact",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "hero": {
+    "headline": "Capture every moment\nas a record",
+    "subcopy": "Small pieces of daily life come together to tell your own story.\ndstudio creates the joy of recording.",
+    "reducedMotionHint": "Daily, Dot, Diary, Design..."
+  },
+  "philosophy": {
+    "sectionLabel": "ABOUT",
+    "intro": "dstudio is an app development studio that makes\nthe experience of recording daily life warmer and more meaningful.",
+    "body": "We pursue comfort that makes you want to open the app every day,\nrather than flashy features.\nWe believe that when each person's day becomes a small dot,\nthey form a beautiful picture together.",
+    "quote": "It's okay not to be perfect.\nRecording is about\ncapturing today as it is.",
+    "values": [
+      { "number": "01", "keyword": "Comfort", "description": "Recording you can start without pressure" },
+      { "number": "02", "keyword": "Consistency", "description": "Big changes from small habits" },
+      { "number": "03", "keyword": "Together", "description": "Filling each day together, not alone" }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "CONTACT",
+    "heading": "Let's talk",
+    "description": "Suggestions, feedback, or just a hello.\nFeel free to reach out."
+  },
+  "footer": {
+    "tagline": "Designing everyday records",
+    "privacy": "Privacy Policy"
+  }
+}

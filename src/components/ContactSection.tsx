@@ -2,8 +2,9 @@
 
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import type { Dictionary } from "@/i18n/getDictionary";
 
-export default function ContactSection() {
+export default function ContactSection({ dict }: { dict: Dictionary }) {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
@@ -18,7 +19,7 @@ export default function ContactSection() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.08em] text-accent"
         >
-          CONTACT
+          {dict.contact.sectionLabel}
         </motion.span>
 
         <motion.h2
@@ -27,7 +28,7 @@ export default function ContactSection() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="mb-4 text-[30px] font-bold leading-[1.3] tracking-[-0.02em] text-text-primary md:text-[40px]"
         >
-          함께 이야기해요
+          {dict.contact.heading}
         </motion.h2>
 
         <motion.p
@@ -36,9 +37,9 @@ export default function ContactSection() {
           transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
           className="mb-8 text-lg text-text-secondary md:text-xl"
         >
-          제안, 피드백, 또는 그냥 안부라도 좋아요.
-          <br />
-          편하게 연락 주세요.
+          {dict.contact.description.split("\n").map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
         </motion.p>
 
         <motion.a

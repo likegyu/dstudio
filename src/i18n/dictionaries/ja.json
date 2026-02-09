@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "dstudio - 毎日の記録をデザインします",
+    "description": "dstudioは日常を記録する体験をより温かく意味のあるものにするアプリ開発スタジオです。ライフロギングアプリto dotを作っています。"
+  },
+  "nav": {
+    "about": "About",
+    "contact": "Contact",
+    "menuOpen": "メニューを開く",
+    "menuClose": "メニューを閉じる"
+  },
+  "hero": {
+    "headline": "毎日の瞬間を\n記録に残す",
+    "subcopy": "日常の小さなかけらが集まって、あなただけの物語になります。\ndstudioは記録する楽しさを作ります。",
+    "reducedMotionHint": "Daily, Dot, Diary, Design..."
+  },
+  "philosophy": {
+    "sectionLabel": "ABOUT",
+    "intro": "dstudioは日常を記録する体験をより温かく意味のあるものに\nしていくアプリ開発スタジオです。",
+    "body": "華やかな機能よりも、毎日開きたくなる心地よさを追求しています。\n一人ひとりの一日が小さな点となって集まれば、\nそれが一つの美しい絵になると信じています。",
+    "quote": "完璧でなくても大丈夫。\n記録とは、ありのままの\n今日を残すことだから。",
+    "values": [
+      { "number": "01", "keyword": "心地よさ", "description": "気軽に始められる記録" },
+      { "number": "02", "keyword": "継続", "description": "小さな習慣が作る大きな変化" },
+      { "number": "03", "keyword": "一緒に", "description": "一人ではなく一緒に埋める毎日" }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "CONTACT",
+    "heading": "お話しましょう",
+    "description": "ご提案、フィードバック、ただのご挨拶でも大歓迎です。\nお気軽にご連絡ください。"
+  },
+  "footer": {
+    "tagline": "毎日の記録をデザインします",
+    "privacy": "プライバシーポリシー"
+  }
+}

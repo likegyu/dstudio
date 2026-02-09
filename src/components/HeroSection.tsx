@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from "react";
+import type { Dictionary } from "@/i18n/getDictionary";
 
 const WORDS = ["Daily", "Dot", "Diary", "Design"];
 const TYPING_SPEED = 80;
@@ -9,7 +10,7 @@ const HOLD_DURATION = 1500;
 const INITIAL_DELAY = 800;
 const PAUSE_BETWEEN = 300;
 
-export default function HeroSection() {
+export default function HeroSection({ dict }: { dict: Dictionary }) {
   const [displayText, setDisplayText] = useState("");
   const [reducedMotion, setReducedMotion] = useState(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
@@ -97,22 +98,22 @@ export default function HeroSection() {
 
         {reducedMotion && (
           <p className="mb-4 text-xs tracking-[0.04em] text-text-muted">
-            Daily, Dot, Diary, Design...
+            {dict.hero.reducedMotionHint}
           </p>
         )}
 
         {/* Main headline */}
         <h1 className="mb-6 text-[30px] font-bold leading-[1.3] tracking-[-0.02em] text-text-primary md:text-[40px]">
-          매일의 순간을
-          <br />
-          기록으로 남기다
+          {dict.hero.headline.split("\n").map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
         </h1>
 
         {/* Subcopy */}
         <p className="mb-8 max-w-md text-lg leading-[1.7] text-text-secondary md:text-xl">
-          일상의 작은 조각들이 모여 당신만의 이야기가 됩니다.
-          <br />
-          dstudio는 기록하는 즐거움을 만듭니다.
+          {dict.hero.subcopy.split("\n").map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
         </p>
 
       </div>
