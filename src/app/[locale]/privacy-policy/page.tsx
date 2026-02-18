@@ -37,17 +37,17 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
     title: "개인정보 처리방침",
     backLabel: "홈으로 돌아가기",
     effectiveDate: "시행일: 2026년 2월 8일",
-    metaDescription: "to dot 앱 개인정보 처리방침",
+    metaDescription: "Dstudio 개인정보 처리방침",
     sections: [
       {
         number: "1",
         title: "개인정보의 수집 및 이용 목적",
-        content: `to dot(이하 "앱")은 다음의 목적을 위해 개인정보를 수집·이용합니다.`,
+        content: `Dstudio(이하 "회사")는 to dot 등 회사가 운영하는 서비스(이하 "서비스")에서 다음의 목적을 위해 개인정보를 수집·이용합니다.`,
         bullets: [
           "회원 가입 및 관리: 회원 식별, 로그인 처리, 서비스 이용 관리",
           "서비스 제공: 습관 기록 저장, 친구 기능, 데이터 동기화",
-          "구독 관리: to dot+ 구독 상태 확인 및 프리미엄 기능 제공 (결제는 Apple이 직접 처리하며, 앱은 결제 정보를 수집하지 않아요)",
-          "서비스 개선: 앱 사용 통계 분석 및 서비스 품질 향상",
+          "구독 관리: 구독 상태 확인 및 프리미엄 기능 제공 (결제는 Apple이 직접 처리하며, 회사는 결제 정보를 수집하지 않아요)",
+          "서비스 개선: 서비스 사용 통계 분석 및 품질 향상",
         ],
       },
       {
@@ -57,12 +57,12 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         bullets: [
           "필수 항목: 이메일 주소, 비밀번호(암호화), 사용자 ID",
           "선택 항목: 이름(닉네임), 프로필 사진, 상태 메시지, 커스텀 ID",
-          "자동 수집 항목: 서비스 이용 기록(습관 데이터, 접속 시간), 온라인 상태, 최근 접속 시간, 구독 상태(to dot+ 가입 여부)",
+          "자동 수집 항목: 서비스 이용 기록(습관 데이터, 접속 시간), 온라인 상태, 최근 접속 시간, 구독 상태",
           "기기 권한: 알림 권한(푸시 알림 전송용), 스크린타임 권한(집중 모드의 앱 차단 기능용, 선택)",
         ],
         extraParagraphs: [
           "Apple 로그인 시: Apple에서 제공하는 사용자 식별자, 이름(선택), 이메일(선택)",
-          "※ 구독 결제 정보(카드 번호, 결제 내역 등)는 Apple이 직접 처리하며, 앱에서는 수집하거나 저장하지 않아요.",
+          "※ 구독 결제 정보(카드 번호, 결제 내역 등)는 Apple이 직접 처리하며, 회사에서는 수집하거나 저장하지 않아요.",
         ],
       },
       {
@@ -79,7 +79,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "4",
         title: "개인정보의 제3자 제공",
         content:
-          "앱은 원칙적으로 이용자의 개인정보를 제3자에게 제공하지 않습니다. 다만, 다음의 경우에는 예외로 합니다.",
+          "회사는 원칙적으로 이용자의 개인정보를 제3자에게 제공하지 않습니다. 다만, 다음의 경우에는 예외로 합니다.",
         bullets: [
           "이용자가 사전에 동의한 경우",
           "법령의 규정에 의한 경우",
@@ -90,7 +90,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "5",
         title: "개인정보의 국외 이전",
         content:
-          "앱은 서비스 제공을 위해 다음과 같이 개인정보를 국외로 이전합니다.",
+          "회사는 서비스 제공을 위해 다음과 같이 개인정보를 국외로 이전합니다.",
         table: {
           headers: ["항목", "내용"],
           rows: [
@@ -122,7 +122,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         bullets: [
           "파기 절차: 회원 탈퇴 요청 시 즉시 파기합니다.",
           "파기 방법: 전자적 파일은 복구 불가능한 방법으로 삭제합니다.",
-          '앱 내 "설정 > 계정 삭제" 기능을 통해 직접 탈퇴할 수 있습니다.',
+          '서비스 내 "설정 > 계정 삭제" 기능을 통해 직접 탈퇴할 수 있습니다.',
         ],
       },
       {
@@ -136,14 +136,14 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
           "회원 탈퇴(계정 삭제)",
         ],
         extraParagraphs: [
-          '위 권리는 앱 내 "설정" 메뉴를 통해 직접 행사하거나, 개인정보 보호책임자에게 연락하여 행사할 수 있습니다.',
+          '위 권리는 서비스 내 "설정" 메뉴를 통해 직접 행사하거나, 개인정보 보호책임자에게 연락하여 행사할 수 있습니다.',
         ],
       },
       {
         number: "8",
         title: "개인정보의 안전성 확보 조치",
         content:
-          "앱은 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.",
+          "회사는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.",
         bullets: [
           "비밀번호 암호화 저장",
           "SSL/TLS를 통한 데이터 전송 암호화",
@@ -157,9 +157,9 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "9",
         title: "개인정보 보호책임자",
         content:
-          "앱의 개인정보 처리에 관한 업무를 총괄하는 개인정보 보호책임자는 다음과 같습니다.",
+          "회사의 개인정보 처리에 관한 업무를 총괄하는 개인정보 보호책임자는 다음과 같습니다.",
         bullets: [
-          "책임자: to dot 운영팀",
+          "책임자: Dstudio 운영팀",
           "이메일: admin@dstudio.kr",
         ],
         extraParagraphs: [
@@ -183,7 +183,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         title: "개인정보 처리방침의 변경",
         content: "이 개인정보 처리방침은 2026년 2월 8일부터 적용됩니다.",
         extraParagraphs: [
-          "개인정보 처리방침이 변경되는 경우 앱 공지를 통해 변경 사항을 알려드립니다.",
+          "개인정보 처리방침이 변경되는 경우 서비스 내 공지를 통해 변경 사항을 알려드립니다.",
         ],
       },
     ],
@@ -192,17 +192,17 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
     title: "Privacy Policy",
     backLabel: "Back to Home",
     effectiveDate: "Effective Date: February 8, 2026",
-    metaDescription: "to dot App Privacy Policy",
+    metaDescription: "Dstudio Privacy Policy",
     sections: [
       {
         number: "1",
         title: "Purpose of Collecting and Using Personal Information",
-        content: `to dot (hereinafter "the App") collects and uses personal information for the following purposes:`,
+        content: `Dstudio (hereinafter "the Company") collects and uses personal information for the following purposes in connection with its services, including to dot (hereinafter "the Services"):`,
         bullets: [
           "Account Registration and Management: User identification, login processing, and service usage management",
           "Service Provision: Storing habit records, friend features, and data synchronization",
-          "Subscription Management: Verifying to dot+ subscription status and providing premium features (payments are processed directly by Apple; the App does not collect payment information)",
-          "Service Improvement: Analyzing app usage statistics and improving service quality",
+          "Subscription Management: Verifying subscription status and providing premium features (payments are processed directly by Apple; the Company does not collect payment information)",
+          "Service Improvement: Analyzing service usage statistics and improving quality",
         ],
       },
       {
@@ -212,12 +212,12 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         bullets: [
           "Required: Email address, password (encrypted), user ID",
           "Optional: Name (nickname), profile photo, status message, custom ID",
-          "Automatically Collected: Service usage records (habit data, access times), online status, last access time, subscription status (to dot+ membership)",
+          "Automatically Collected: Service usage records (habit data, access times), online status, last access time, subscription status",
           "Device Permissions: Notification permission (for push notifications), Screen Time permission (for Focus Mode app blocking, optional)",
         ],
         extraParagraphs: [
           "When signing in with Apple: User identifier provided by Apple, name (optional), email (optional)",
-          "Note: Subscription payment information (card numbers, payment history, etc.) is processed directly by Apple and is not collected or stored by the App.",
+          "Note: Subscription payment information (card numbers, payment history, etc.) is processed directly by Apple and is not collected or stored by the Company.",
         ],
       },
       {
@@ -234,7 +234,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "4",
         title: "Provision of Personal Information to Third Parties",
         content:
-          "The App does not, in principle, provide users' personal information to third parties. However, exceptions are made in the following cases:",
+          "The Company does not, in principle, provide users' personal information to third parties. However, exceptions are made in the following cases:",
         bullets: [
           "When the user has given prior consent",
           "When required by law or regulation",
@@ -245,7 +245,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "5",
         title: "International Transfer of Personal Information",
         content:
-          "The App transfers personal information internationally for service provision as follows:",
+          "The Company transfers personal information internationally for service provision as follows:",
         table: {
           headers: ["Item", "Details"],
           rows: [
@@ -281,7 +281,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         bullets: [
           "Destruction Procedure: Personal information is destroyed immediately upon account deletion request.",
           "Destruction Method: Electronic files are deleted using methods that prevent recovery.",
-          'Users can delete their account directly through "Settings > Delete Account" in the App.',
+          'Users can delete their account directly through "Settings > Delete Account" in the Services.',
         ],
       },
       {
@@ -296,14 +296,14 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
           "Account deletion (withdrawal)",
         ],
         extraParagraphs: [
-          'These rights can be exercised directly through the "Settings" menu in the App or by contacting the Privacy Officer.',
+          'These rights can be exercised directly through the "Settings" menu in the Services or by contacting the Privacy Officer.',
         ],
       },
       {
         number: "8",
         title: "Measures to Ensure Security of Personal Information",
         content:
-          "The App takes the following measures to ensure the security of personal information:",
+          "The Company takes the following measures to ensure the security of personal information:",
         bullets: [
           "Encrypted password storage",
           "Data transmission encryption via SSL/TLS",
@@ -317,9 +317,9 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "9",
         title: "Privacy Officer",
         content:
-          "The Privacy Officer responsible for overseeing all matters related to the processing of personal information in the App is as follows:",
+          "The Privacy Officer responsible for overseeing all matters related to the processing of personal information is as follows:",
         bullets: [
-          "Officer: to dot Operations Team",
+          "Officer: Dstudio Operations Team",
           "Email: admin@dstudio.kr",
         ],
         extraParagraphs: [
@@ -344,7 +344,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         content:
           "This Privacy Policy is effective as of February 8, 2026.",
         extraParagraphs: [
-          "Any changes to this Privacy Policy will be announced through the App.",
+          "Any changes to this Privacy Policy will be announced through the Services.",
         ],
       },
     ],
@@ -353,17 +353,17 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
     title: "プライバシーポリシー",
     backLabel: "ホームに戻る",
     effectiveDate: "施行日: 2026年2月8日",
-    metaDescription: "to dot アプリ プライバシーポリシー",
+    metaDescription: "Dstudio プライバシーポリシー",
     sections: [
       {
         number: "1",
         title: "個人情報の収集および利用目的",
-        content: `to dot（以下「本アプリ」）は、以下の目的で個人情報を収集・利用します。`,
+        content: `Dstudio（以下「当社」）は、to dotをはじめとする当社が運営するサービス（以下「本サービス」）において、以下の目的で個人情報を収集・利用します。`,
         bullets: [
           "会員登録および管理: 会員識別、ログイン処理、サービス利用管理",
           "サービス提供: 習慣記録の保存、フレンド機能、データ同期",
-          "サブスクリプション管理: to dot+のサブスクリプション状態の確認およびプレミアム機能の提供（決済はAppleが直接処理し、本アプリは決済情報を収集しません）",
-          "サービス改善: アプリ利用統計の分析およびサービス品質の向上",
+          "サブスクリプション管理: サブスクリプション状態の確認およびプレミアム機能の提供（決済はAppleが直接処理し、当社は決済情報を収集しません）",
+          "サービス改善: サービス利用統計の分析および品質の向上",
         ],
       },
       {
@@ -373,12 +373,12 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         bullets: [
           "必須項目: メールアドレス、パスワード（暗号化）、ユーザーID",
           "任意項目: 名前（ニックネーム）、プロフィール写真、ステータスメッセージ、カスタムID",
-          "自動収集項目: サービス利用記録（習慣データ、アクセス時間）、オンライン状態、最終アクセス時間、サブスクリプション状態（to dot+加入有無）",
+          "自動収集項目: サービス利用記録（習慣データ、アクセス時間）、オンライン状態、最終アクセス時間、サブスクリプション状態",
           "デバイス権限: 通知権限（プッシュ通知送信用）、スクリーンタイム権限（集中モードのアプリブロック機能用、任意）",
         ],
         extraParagraphs: [
           "Apple IDでサインインする場合: Appleが提供するユーザー識別子、名前（任意）、メールアドレス（任意）",
-          "※ サブスクリプション決済情報（カード番号、決済履歴など）はAppleが直接処理し、本アプリでは収集・保存しません。",
+          "※ サブスクリプション決済情報（カード番号、決済履歴など）はAppleが直接処理し、当社では収集・保存しません。",
         ],
       },
       {
@@ -395,7 +395,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "4",
         title: "個人情報の第三者提供",
         content:
-          "本アプリは原則として利用者の個人情報を第三者に提供しません。ただし、以下の場合は例外とします。",
+          "当社は原則として利用者の個人情報を第三者に提供しません。ただし、以下の場合は例外とします。",
         bullets: [
           "利用者が事前に同意した場合",
           "法令の規定による場合",
@@ -406,7 +406,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "5",
         title: "個人情報の国外移転",
         content:
-          "本アプリはサービス提供のため、以下のとおり個人情報を国外に移転します。",
+          "当社はサービス提供のため、以下のとおり個人情報を国外に移転します。",
         table: {
           headers: ["項目", "内容"],
           rows: [
@@ -438,7 +438,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         bullets: [
           "破棄手続き: 退会リクエスト時に即時破棄します。",
           "破棄方法: 電子ファイルは復元不可能な方法で削除します。",
-          "アプリ内の「設定 > アカウント削除」機能から直接退会できます。",
+          "本サービス内の「設定 > アカウント削除」機能から直接退会できます。",
         ],
       },
       {
@@ -452,14 +452,14 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
           "退会（アカウント削除）",
         ],
         extraParagraphs: [
-          "上記の権利はアプリ内の「設定」メニューから直接行使するか、個人情報保護責任者に連絡して行使できます。",
+          "上記の権利は本サービス内の「設定」メニューから直接行使するか、個人情報保護責任者に連絡して行使できます。",
         ],
       },
       {
         number: "8",
         title: "個人情報の安全性確保措置",
         content:
-          "本アプリは個人情報の安全性確保のため、以下の措置を講じています。",
+          "当社は個人情報の安全性確保のため、以下の措置を講じています。",
         bullets: [
           "パスワードの暗号化保存",
           "SSL/TLSによるデータ転送の暗号化",
@@ -473,9 +473,9 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         number: "9",
         title: "個人情報保護責任者",
         content:
-          "本アプリの個人情報処理に関する業務を統括する個人情報保護責任者は以下のとおりです。",
+          "当社の個人情報処理に関する業務を統括する個人情報保護責任者は以下のとおりです。",
         bullets: [
-          "責任者: to dot 運営チーム",
+          "責任者: Dstudio 運営チーム",
           "メール: admin@dstudio.kr",
         ],
         extraParagraphs: [
@@ -500,7 +500,7 @@ const privacyContent: Record<Locale, PrivacyLocaleContent> = {
         content:
           "このプライバシーポリシーは2026年2月8日から適用されます。",
         extraParagraphs: [
-          "プライバシーポリシーが変更される場合、アプリ内のお知らせを通じて変更内容をご案内します。",
+          "プライバシーポリシーが変更される場合、本サービス内のお知らせを通じて変更内容をご案内します。",
         ],
       },
     ],
